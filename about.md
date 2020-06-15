@@ -68,8 +68,7 @@ layout: page
 			<li><b>Languages :</b>
 				<ul>
 					<li>Python</li>
-					<li>C++</li>
-					<li>C</li>
+					<li>C & C++</li>
 					<li>HTML</li>
 					<li>Javascript</li>
 					<li>SQL</li>
@@ -115,6 +114,7 @@ layout: page
 					<li>Regex</li>
 					<li>Stacking and Boosting Algos.<br>
 						(Classification and Regression)
+					<li>TensorFlow</li>
 					</li>
 				</ul>
 			</li>
