@@ -34,14 +34,14 @@ disqus:
   categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: anuranjan.dubey.5
 #twitter: mytwitter
-instagram: myinstagram
+instagram: _almique_
 # pinterest: mypinterest
-linkedin: mylinkedin
+linkedin: adubey007
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: almique
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -50,7 +50,7 @@ github: mygithub
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: anuranjan.dubey007@gmail.com
 
 authors:
   johndoe:
