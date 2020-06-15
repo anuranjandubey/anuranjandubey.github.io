@@ -17,10 +17,10 @@ layout: page
 <h2>Work Experience</h2>
 
 <ul class="work-list">
+	[ May 2020 ]
 	<li>
-		[ May 2020 ]
 		<h3>JPMorgan Chase & Co.</h3>
-		<h4>Software Engineering Virtual Experience Intern.</h4><br>
+		<b>Software Engineering Virtual Experience Intern.</b><br>
 		[ Establishing Financial Data Feeds, Frontend Web Development and Data Visualization with Perspective ]<br>
 		<a href="https://drive.google.com/file/d/1X2eWjv-8ka2HHBaHKmjh-2VdnL_GTH-9/view">Certificate</a>
 	</li>
@@ -29,17 +29,18 @@ layout: page
 <h2>Education</h2>
 
 <ul class="education-list">
-	<li>
-		[ July 2017 ]  - [ July 2021 ]			
+	[ July 2017 ]  - [ July 2021 ]
+	<li>			
 		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
-		<h4>Bachelor of Technology, Computer Science and Engineering, GPA: 7.0/10 (Current)</h4> <br>
-		<h5><b>Activites & Societies:</b> Table Tennis Captain.</h5>
+		<b>Bachelor of Technology, Computer Science and Engineering, GPA: 7.0/10 (Current)</b> <br>
+		<b>Activites & Societies:</b> 
+		Table Tennis Captain.
 	</li>
+	[ May 2015 ]  - [ May 2016 ]
 	<li>
-		[ May 2015 ]  - [ May 2016 ]			
 		<h3>Kendriya Vidyalaya, Aligarh, Uttar Pradesh, India 12th (Intermediate).</h3>
-		<h4>Physics, Chemistry & Mathematics.</h4>
-		<h4>Second Topper — Percentage : 80 % (Overall)</h4> <br>
+		<b>Physics, Chemistry & Mathematics.</b>
+		<b>Second Topper — Percentage : 80 % (Overall)</b> <br>
 	</li>
 </ul>
 
