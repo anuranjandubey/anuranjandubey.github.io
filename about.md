@@ -63,29 +63,33 @@ layout: page
 <h1>Technical Strengths</h1>
 
 <ol class="skill-list">
-	<li><b>Languages :</b>
-		<ul>
-			<li>Python</li>
-			<li>C++</li>
-			<li>C</li>
-			<li>HTML</li>
-			<li>Javascript</li>
-			<li>SQL</li>
-			<li>PL/SQL</li>
-			<li>LaTeX </li>
-			<li>Assembly(8085,8086,MIPS)</li>
-		</ul>
-	</li>
-	<li><b>Web & App Development :</b>
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>JavaScript</li>
-			<li>PHP</li>
-			<li>React-Native(Expo)</li>
-			<li>Flutter</li>
-		</ul>
-	</li>
+	<div style="display: inline-block">
+		<li><b>Languages :</b>
+			<ul>
+				<li>Python</li>
+				<li>C++</li>
+				<li>C</li>
+				<li>HTML</li>
+				<li>Javascript</li>
+				<li>SQL</li>
+				<li>PL/SQL</li>
+				<li>LaTeX </li>
+				<li>Assembly(8085,8086,MIPS)</li>
+			</ul>
+		</li>
+	</div>
+	<div style="display: inline-block">
+		<li><b>Web & App Development :</b>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>PHP</li>
+				<li>React-Native(Expo)</li>
+				<li>Flutter</li>
+			</ul>
+		</li>
+	</div>
 	<li><b>Applications & Platforms :</b>
 		<ul>
 			<li>Amazon AWS (EC2)</li>
@@ -118,10 +122,4 @@ layout: page
 	</li>
 </ol>
 <hr class="rounded">
-<h1>Projects</h1>
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
