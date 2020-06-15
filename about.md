@@ -33,7 +33,7 @@ layout: page
 		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
 		[ July 2017 ]  - [ July 2021 ]<br>
 		<b>Bachelor of Technology, Computer Science and Engineering.</b> <br>
-		<b>GPA: 7.0/10 (Current)</b>
+		<b>GPA: 7.0/10 (Current)</b><br>
 		<b>Activites & Societies:</b> 
 		Table Tennis Captain.
 	</li>
@@ -60,24 +60,33 @@ layout: page
 </ul>
 
 
-<h2>Skills</h2>
+<h2>Technical Strengths</h2>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+<ol class="skill-list">
+	<li>Languages :
+		<ul>
+			<li>Python</li>
+			<li>C++</li>
+			<li>C</li>
+			<li>HTML</li>
+			<li>Javascript</li>
+			<li>SQL</li>
+			<li>PL/SQL</li>
+			<li>LaTeX </li>
+			<li>Assembly(8085,8086,MIPS)</li>
+		</ul>
+	</li>
+	<li>Web & App Development :
+		<ul>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>PHP</li>
+			<li>React-Native(Expo)</li>
+			<li>Flutter</li>
+		</ul>
+	</li>
+</ol>
 
 <h2>Projects</h2>
 
