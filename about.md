@@ -19,7 +19,7 @@ layout: page
 <ul class="work-list">
 	<li>
 		<h3>JPMorgan Chase & Co.</h3>
-		[ May 2020 ]
+		[ May 2020 ]<br>
 		<b>Software Engineering Virtual Experience Intern.</b><br>
 		[ Establishing Financial Data Feeds, Frontend Web Development and Data Visualization with Perspective ]<br>
 		<a href="https://drive.google.com/file/d/1X2eWjv-8ka2HHBaHKmjh-2VdnL_GTH-9/view">Certificate</a><br>
@@ -31,7 +31,7 @@ layout: page
 <ul class="education-list">
 	<li>			
 		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
-		[ July 2017 ]  - [ July 2021 ]
+		[ July 2017 ]  - [ July 2021 ]<br>
 		<b>Bachelor of Technology, Computer Science and Engineering.</b> <br>
 		<b>GPA: 7.0/10 (Current)</b>
 		<b>Activites & Societies:</b> 
@@ -39,9 +39,23 @@ layout: page
 	</li>
 	<li>
 		<h3>Kendriya Vidyalaya, Aligarh, Uttar Pradesh, India 12th (Intermediate).</h3>
-		[ May 2015 ]  - [ May 2016 ]
-		<b>Physics, Chemistry & Mathematics.</b><br>
-		<b>Second Topper — Percentage : 80 % (Overall)</b> <br>
+		[ May 2015 ]  - [ May 2016 ]<br>
+		<b>Science Stream With Overall Percentage 80%</b><br>
+		<b>Second Topper ,Secured Highest Marks in Computer Science and Chemistry.</b> <br>
+		<b>Activites & Societies:</b>
+		School Captain, House Captain.
+	</li>
+	<li>
+		<h3>Kendriya Vidyalaya, Aligarh, Uttar Pradesh, India 10th (High School).</h3>
+		[ May 2013 ]  - [ May 2014 ]<br>
+		<b>All India Topper with Merit Certificate in All Subjects.</b><br>
+		<b>CGPA: 10 (Out of 10)</b> <br>
+		<b>Won several CCE Activities.(Student With Most Awards and Certificate of the year).</b>
+	</li>
+	<li>
+		<h3>Delhi Public School Aligarh.</h3>
+		[ 2006 ]  - [ 2011 ]<br>
+		<b>Attended School From 3rd Standard To 7th Standard </b>
 	</li>
 </ul>
 
