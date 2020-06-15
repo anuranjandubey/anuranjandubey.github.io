@@ -13,7 +13,7 @@ layout: page
 <p>I was born in the city of Aligarh, India - "The city of Locks". I learnt 4 languages (English, Hindi, Urdu & Sanskrit) at my school, though I'm not fluent with Urdu and Sanskrit.I want to travel the world and capture it as I see it from my lens. I am quite active on Instagram.</p>
 
 <p>I have recently started working on my fitness, you know - "Fit Mind Lies in Fit Body". Apart from that I'm a Food Lover too. I enjoy different cuisines. We can discuss places to eat around mid-town, & talk about shows on Netflix.</p>
-
+<hr class="rounded">
 <h1>Work Experience</h1>
 
 <ul class="work-list">
@@ -25,7 +25,7 @@ layout: page
 		<a href="https://drive.google.com/file/d/1X2eWjv-8ka2HHBaHKmjh-2VdnL_GTH-9/view">Certificate</a><br>
 	</li>
 </ul>
-
+<hr class="rounded">
 <h1>Education</h1>
 
 <ul class="education-list">
@@ -59,7 +59,7 @@ layout: page
 	</li>
 </ul>
 
-
+<hr class="rounded">
 <h1>Technical Strengths</h1>
 
 <ol class="skill-list">
@@ -117,7 +117,7 @@ layout: page
 		</ul>
 	</li>
 </ol>
-
+<hr class="rounded">
 <h1>Projects</h1>
 
 <ul>
