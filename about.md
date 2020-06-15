@@ -14,7 +14,7 @@ layout: page
 
 <p>I have recently started working on my fitness, you know - "Fit Mind Lies in Fit Body". Apart from that I'm a Food Lover too. I enjoy different cuisines. We can discuss places to eat around mid-town, & talk about shows on Netflix.</p>
 
-<h2>Work Experience</h2>
+<h1>Work Experience</h1>
 
 <ul class="work-list">
 	<li>
@@ -26,7 +26,7 @@ layout: page
 	</li>
 </ul>
 
-<h2>Education</h2>
+<h1>Education</h1>
 
 <ul class="education-list">
 	<li>			
@@ -60,7 +60,7 @@ layout: page
 </ul>
 
 
-<h2>Technical Strengths</h2>
+<h1>Technical Strengths</h1>
 
 <ol class="skill-list">
 	<li><b>Languages :</b>
@@ -118,7 +118,7 @@ layout: page
 	</li>
 </ol>
 
-<h2>Projects</h2>
+<h1>Projects</h1>
 
 <ul>
 	<li><a href="https://github.com/">Lorem Lorem</a></li>
