@@ -92,7 +92,7 @@ layout: page
 				</ul>
 			</li>
 		</div>
-	</div>
+	</div> <br>
 	<div>
 		<div style="display: inline-block">
 			<li><b>Machine Learning :</b>
@@ -118,7 +118,7 @@ layout: page
 				</ul>
 			</li>
 		</div>
-	</div>
+	</div> <br>
 	<li><b>Operating System :</b>
 		<ul>
 			<li>Mac-OSX</li>
