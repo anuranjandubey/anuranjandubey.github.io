@@ -95,18 +95,6 @@ layout: page
 	</div>
 	<div>
 		<div style="display: inline-block">
-			<li><b>Web & App Development :</b>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>PHP</li>
-					<li>React-Native(Expo)</li>
-					<li>Flutter</li>
-				</ul>
-			</li>
-		</div>
-		<div style="display: inline-block">
 			<li><b>Machine Learning :</b>
 				<ul>
 					<li>NLP</li>
@@ -115,6 +103,18 @@ layout: page
 					<li>Stacking and Boosting Algos.<br>
 						(Classification and Regression)</li>
 					<li>TensorFlow</li>
+				</ul>
+			</li>
+		</div>
+		<div style="display: inline-block">
+			<li><b>Web & App Development :</b>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>React-Native(Expo)</li>
+					<li>Flutter</li>
 				</ul>
 			</li>
 		</div>
