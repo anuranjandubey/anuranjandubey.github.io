@@ -4,19 +4,27 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>I'm Always Up to Learn New Things.</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I'm an aspiring software developer and a Machine Learning Enthusiast. I'm currently pursuing my Bachelor's Degree in Computer Science at Jaypee Institute Of Information Technology. Being a developer you constantly have to learn new skills and grasp knowledge of everything, and that is what i enjoy.
+
+My mom and dad, despite being physically challenged, worked hard to send me and my brother to the most expensive private school in the town. I take pride in that. I am grateful to have been blessed with such great parents. Although i have completed my High School and Intermediate from Kendriya Vidyalaya.
+
+I was born in the city of Aligarh, India - "The city of Locks". I learnt 4 languages (English, Hindi, Urdu & Sanskrit) at my school, though I'm not fluent with Urdu and Sanskrit.I want to travel the world and capture it as I see it from my lens. I am quite active on Instagram.
+
+I have recently started working on my fitness, you know - "Fit Mind Lies in Fit Body". Apart from that I'm a Food Lover too. I enjoy different cuisines. We can discuss places to eat around mid-town, & talk about shows on Netflix.</p>
+
+<h2>Work Experience</h2>
+
+<ul class="work-list">
+	<li>
+		<h3>JPMorgan Chase & Co.</h3>
+		Software Engineering Virtual Experience Intern.
+		[ Establishing Financial Data Feeds ,Frontend Web Development and Data Visualization with Perspective ]
+		<a href="https://drive.google.com/file/d/1X2eWjv-8ka2HHBaHKmjh-2VdnL_GTH-9/view">Certificate</a>
+	</li>
+</ul>
+
 
 <h2>Skills</h2>
 
