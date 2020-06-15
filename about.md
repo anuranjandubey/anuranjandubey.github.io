@@ -115,7 +115,6 @@ layout: page
 					<li>Stacking and Boosting Algos.<br>
 						(Classification and Regression)
 					<li>TensorFlow</li>
-					</li>
 				</ul>
 			</li>
 		</div>
