@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<h2>I'm Always Up to Learn New Things.</h2>
+<h1>I'm Always Up to Learn New Things.</h1>
 
 <p>I'm an aspiring software developer and a Machine Learning Enthusiast. I'm currently pursuing my Bachelor's Degree in Computer Science at Jaypee Institute Of Information Technology. Being a developer you constantly have to learn new skills and grasp knowledge of everything, and that is what i enjoy.</p>
 
@@ -63,7 +63,7 @@ layout: page
 <h2>Technical Strengths</h2>
 
 <ol class="skill-list">
-	<li>Languages :
+	<li><b>Languages :</b>
 		<ul>
 			<li>Python</li>
 			<li>C++</li>
@@ -76,7 +76,7 @@ layout: page
 			<li>Assembly(8085,8086,MIPS)</li>
 		</ul>
 	</li>
-	<li>Web & App Development :
+	<li><b>Web & App Development :</b>
 		<ul>
 			<li>HTML</li>
 			<li>CSS</li>
@@ -84,6 +84,36 @@ layout: page
 			<li>PHP</li>
 			<li>React-Native(Expo)</li>
 			<li>Flutter</li>
+		</ul>
+	</li>
+	<li><b>Applications & Platforms :</b>
+		<ul>
+			<li>Amazon AWS (EC2)</li>
+			<li>AWS Textract(API)</li>
+			<li>Git</li>
+			<li>Jupyter Notebook </li>
+			<li>VirtualBox </li>
+			<li>MySQL</li>
+			<li>Photoshop</li>
+			<li>Visual Studio Code</li>
+		</ul>
+	</li>
+	<li><b>Machine Learning :</b>
+		<ul>
+			<li>NLP</li>
+			<li>Image Processing(OpenCV)</li>
+			<li>Regex</li>
+			<li>Stacking and Boosting Algos.<br>
+				(Classification and Regression)
+			</li>
+		</ul>
+	</li>
+	<li><b>Operating System :</b>
+		<ul>
+			<li>Mac-OSX</li>
+			<li>Linux(Ubuntu & CentOS)</li>
+			<li>Windows</li>
+			<li>Android</li>
 		</ul>
 	</li>
 </ol>
