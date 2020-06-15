@@ -113,7 +113,7 @@ layout: page
 					<li>Image Processing(OpenCV)</li>
 					<li>Regex</li>
 					<li>Stacking and Boosting Algos.<br>
-						(Classification and Regression)
+						(Classification and Regression)</li>
 					<li>TensorFlow</li>
 				</ul>
 			</li>
