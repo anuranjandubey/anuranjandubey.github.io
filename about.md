@@ -19,8 +19,8 @@ I have recently started working on my fitness, you know - "Fit Mind Lies in Fit 
 <ul class="work-list">
 	<li>
 		<h3>JPMorgan Chase & Co.</h3>
-		Software Engineering Virtual Experience Intern.
-		[ Establishing Financial Data Feeds ,Frontend Web Development and Data Visualization with Perspective ]
+		<p>Software Engineering Virtual Experience Intern.</p>
+		<p>[ Establishing Financial Data Feeds ,Frontend Web Development and Data Visualization with Perspective ]</p>
 		<a href="https://drive.google.com/file/d/1X2eWjv-8ka2HHBaHKmjh-2VdnL_GTH-9/view">Certificate</a>
 	</li>
 </ul>
