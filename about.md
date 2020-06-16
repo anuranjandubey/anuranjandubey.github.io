@@ -64,7 +64,7 @@ layout: page
 
 <ol class="skill-list">
     <div class="container" style="display: flex;">
-        <div style="flex-grow: 1">
+        <div style="flex-grow: 3">
 			<li><b>Languages :</b>
 				<ul>
 					<li>Python</li>
@@ -95,7 +95,7 @@ layout: page
 	</div>
 	<br>
 	<div class="container" style="display: flex;">
-        <div style="flex-grow: 1;">
+        <div style="flex-grow: 3;">
 			<li><b>Machine Learning :</b>
 				<ul>
 					<li>NLP</li>
