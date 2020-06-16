@@ -63,8 +63,8 @@ layout: page
 <h1>Technical Strengths</h1>
 
 <ol class="skill-list">
-	<div>
-		<div style="display: inline-block">
+    <div class="container" style="display: flex;">
+        <div style="flex-grow: 1">
 			<li><b>Languages :</b>
 				<ul>
 					<li>Python</li>
@@ -74,11 +74,35 @@ layout: page
 					<li>SQL</li>
 					<li>PL/SQL</li>
 					<li>LaTeX </li>
-					<li>Assembly(8085,8086,MIPS)</li>
+					<li>Assembly<br>(8085,8086,MIPS)</li>
 				</ul>
 			</li>
-		</div>
-		<div style="display: inline-block">
+        </div>
+        <div style="flex-grow: 1;">
+			<li><b>Web & App Development :</b>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>React-Native(Expo)</li>
+					<li>Flutter</li>
+				</ul>
+			</li>
+        </div>
+        <div style="flex-grow: 1;">
+			<li><b>Machine Learning :</b>
+				<ul>
+					<li>NLP</li>
+					<li>Image Processing(OpenCV)</li>
+					<li>Regex</li>
+					<li>Stacking and Boosting Algos.<br>
+						(Classification and Regression)</li>
+					<li>TensorFlow</li>
+				</ul>
+			</li>
+        </div>
+        <div style="flex-grow: 1;">
 			<li><b>Applications & Platforms :</b>
 				<ul>
 					<li>Amazon AWS (EC2)</li>
@@ -91,34 +115,8 @@ layout: page
 					<li>Visual Studio Code</li>
 				</ul>
 			</li>
-		</div>
-	</div> <br>
-	<div>
-		<div style="display: inline-block">
-			<li><b>Machine Learning :</b>
-				<ul>
-					<li>NLP</li>
-					<li>Image Processing(OpenCV)</li>
-					<li>Regex</li>
-					<li>Stacking and Boosting Algos.<br>
-						(Classification and Regression)</li>
-					<li>TensorFlow</li>
-				</ul>
-			</li>
-		</div>
-		<div style="display: inline-block">
-			<li><b>Web & App Development :</b>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>PHP</li>
-					<li>React-Native(Expo)</li>
-					<li>Flutter</li>
-				</ul>
-			</li>
-		</div>
-	</div> <br>
+        </div>
+    </div><br>
 	<li><b>Operating System :</b>
 		<ul>
 			<li>Mac-OSX</li>

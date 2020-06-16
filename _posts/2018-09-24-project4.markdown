@@ -1,0 +1,35 @@
+---
+title: "Video Library Management System"
+layout: post
+date: 2018-09-20 12:10
+image: /assets/images/project4.png
+headerImage: true
+projects: true
+category: project
+externalLink: false
+number: "4. "
+---
+
+
+- A Video library management system written in C++ using Array, File handling, Linked List, BST, OOP(classes and objects).
+
+<hr class="rounded">
+<h3>About the Project</h3>
+
+It's a video library management system. It has the following options
+- 1) Album issue - Issues a customer album of his/her choice.<br>
+- 2) Album deposit- Submits the album isuued to the respective customer.<br>
+- 3)Administrator menu: <br>
+    - i) Create customer record<br>
+    - ii) Display all customer record<br>
+    - iii) Display specific customer record<br>
+    - iv) Modify customer record<br>
+    - v) Delete customer record<br>
+    - vi) Create new album<br>
+    - vii) Display all albums<br>
+    - viii) Display specific album<br>
+    - ix) Modify album<br>
+    - x) Delete album<br>
+
+- 4) Operations on Sorting of album- Sorts the index number of albums using BST<br>
+- 5) Exit - To exit<br>

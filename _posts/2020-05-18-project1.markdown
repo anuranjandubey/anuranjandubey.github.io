@@ -5,9 +5,9 @@ date: 2020-05-18 12:10
 image: /assets/images/project1.png
 headerImage: true
 projects: true
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
 category: project
 externalLink: false
+number: "1. "
 ---
 
 
@@ -17,17 +17,12 @@ externalLink: false
 - Applied [AWS Textract API](https://docs.aws.amazon.com/textract/latest/dg/what-is.html) to Detect text efficiently.
 
 - Used [Regexr](https://regexr.com/) for Extraction from raw text.
+<hr class="rounded">
 
----
+<h3>Abstract</h3>
+Extracting useful information from any raw text is a difficult task but in this project, we are retrieving the in-formation from an image with the help of AWS Textract which gives its output as tokenized or blocked raw text which will be further reduced to useful information with the help of rule based matching or object based matching. As dataset we are using 46 sample images of RCs which is stored in an AWS S3 bucket.
 
-What has inside?
+<h3>Summary</h3>
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
-
----
+Starting with the raw image first we pre-process the image ie; Normalize image and croping useless areas in the image (Normalization Includes sharpening of the image also) with the help of opencv lib. widely used for image processing.
+Then creating an AWS S3 Bucket of these Preprocessed Images to be further given as an input to AWS Textract.

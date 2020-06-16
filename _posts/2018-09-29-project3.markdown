@@ -1,0 +1,32 @@
+---
+title: "NLP: EMNIST Handwritten Character Classification"
+layout: post
+date: 2018-09-29 12:10
+image: /assets/images/project3.png
+headerImage: true
+projects: true
+category: project
+externalLink: false
+number: "3. "
+---
+
+
+
+- Using [EMNIST](https://www.nist.gov/itl/products-and-services/emnist-dataset) data sets to create a more robust version of handwritten character classification.
+<hr class="rounded">
+
+<h3>Abstract</h3>
+<p>The MNIST database was a subset of a larger dataset known as the NIST Special Database 19 which contains digits, uppercase and lowercase handwritten letters. This project uses a variant of the full NIST dataset, which is called Extended MNIST(EMNIST), which follows the same conversion paradigm used to create the MNIST dataset. The result is a set of datasets that constitute a more challenging classification tasks involving letters and digits, and that shares the same image structure and parameters as the original MNIST task, allowing for direct compatibility with all existing classifiers and systems.</p>
+
+<h3>Introduction</h3>
+
+<p>Neural networks and deep learning currently provide the best solutions to many problems in
+image recognition, speech recognition, and natural language processing.Some advancements
+with the current data sets have led to create a more robust version of handwritten character
+classification.This project uses a latest dataset. This project uses several Python packages
+that come standard with the Anaconda Python distribution. The primary libraries that we’ll
+be using are:</p>
+<p>
+- 1 NumPy(Provides a fast numerical array structure and helper fuctions)<br>
+- 2 pandas: Provides a DataFrame structure to store data in memory and work with it easily and efficiently.<br>
+- 3 scikit-learn: The essential Machine Learning package in Python.<br></p>
