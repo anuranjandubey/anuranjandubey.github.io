@@ -2,7 +2,7 @@
 title: "Useful Data Extraction from RC Images Using AWS Textract API"
 layout: post
 date: 2020-05-18 12:10
-image: https://drive.google.com/file/d/1By_4HNnJeXSvPmVyI22dnrLuGA_RzE8u/view?usp=sharing
+image: https://drive.google.com/file/d/1tF3s2wcG9MViSl21w8ftepROZj93d2Us/view?usp=sharing
 headerImage: true
 projects: true
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
