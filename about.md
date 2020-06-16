@@ -90,6 +90,8 @@ layout: page
 				</ul>
 			</li>
         </div>
+	</div>
+	<div class="container" style="display: flex;">
         <div style="flex-grow: 1;">
 			<li><b>Machine Learning :</b>
 				<ul>
