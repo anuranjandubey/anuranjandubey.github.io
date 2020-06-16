@@ -2,6 +2,7 @@
 title: "Useful Data Extraction from RC Images Using AWS Textract API"
 layout: post
 date: 2020-05-18 12:10
+image: https://drive.google.com/file/d/1By_4HNnJeXSvPmVyI22dnrLuGA_RzE8u/view?usp=sharing
 headerImage: true
 projects: true
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
@@ -10,7 +11,11 @@ externalLink: false
 ---
 
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](https://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+- Preprocessed the images using [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html) library.
+
+- Applied [AWS Textract API](https://docs.aws.amazon.com/textract/latest/dg/what-is.html) to Detect text efficiently.
+
+- Used [Regexr](https://regexr.com/) for Extraction from raw text.
 
 ---
 
@@ -25,6 +30,3 @@ What has inside?
 - [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
 
 ---
-
-[Check it out](https://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](https://github.com/sergiokopplin/indigo/issues).
