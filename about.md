@@ -79,18 +79,21 @@ layout: page
 			</li>
         </div>
         <div style="flex-grow: 1;">
-			<li><b>Web & App Development :</b>
+			<li><b>Applications & Platforms :</b>
 				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>PHP</li>
-					<li>React-Native(Expo)</li>
-					<li>Flutter</li>
+					<li>Amazon AWS (EC2)</li>
+					<li>AWS Textract(API)</li>
+					<li>Git</li>
+					<li>Jupyter Notebook </li>
+					<li>VirtualBox </li>
+					<li>MySQL</li>
+					<li>Photoshop</li>
+					<li>Visual Studio Code</li>
 				</ul>
 			</li>
         </div>
 	</div>
+	<br>
 	<div class="container" style="display: flex;">
         <div style="flex-grow: 1;">
 			<li><b>Machine Learning :</b>
@@ -105,16 +108,14 @@ layout: page
 			</li>
         </div>
         <div style="flex-grow: 1;">
-			<li><b>Applications & Platforms :</b>
+			<li><b>Web & App Development :</b>
 				<ul>
-					<li>Amazon AWS (EC2)</li>
-					<li>AWS Textract(API)</li>
-					<li>Git</li>
-					<li>Jupyter Notebook </li>
-					<li>VirtualBox </li>
-					<li>MySQL</li>
-					<li>Photoshop</li>
-					<li>Visual Studio Code</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>PHP</li>
+					<li>React-Native(Expo)</li>
+					<li>Flutter</li>
 				</ul>
 			</li>
         </div>
