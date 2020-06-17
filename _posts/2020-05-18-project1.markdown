@@ -1,5 +1,5 @@
 ---
-title: "Useful Data Extraction from RC Images Using AWS Textract API"
+title: "Information Retrieval from RC Images Using AWS Textract API"
 layout: post
 date: 2020-05-18 12:10
 image: /assets/images/project1.png

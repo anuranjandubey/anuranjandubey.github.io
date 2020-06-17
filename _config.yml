@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://drive.google.com/file/d/1KXa_preMAP2JjdykhHUgpwV70PkWFco1/view?usp=sharinghttps://drive.google.com/file/d/1KXa_preMAP2JjdykhHUgpwV70PkWFco1/view?usp=sharing
+resume-external: false
+resume-url: /assets/Anuranjan_Dubey.pdf
 
 url: https://anuranjandubey.github.io
 # your url: https://USERNAME.github.io
@@ -90,7 +90,7 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+post-advance-links: [post]
 
 # show author block at the end of a post ?
 show-author: true

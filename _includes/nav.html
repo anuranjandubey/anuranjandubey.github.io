@@ -31,9 +31,9 @@
         {% endif %}
 
         {% if site.about == true %}
-            {% if page.title != "Courses" %}
+            {% if page.title != "Courses" and page.title != "Home" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/courses">Courses</a>
+                    <a class="link" href="#coursespage">Courses</a>
                 </li>
             {% endif %}
         {% endif %}
