@@ -201,70 +201,13 @@ layout: page
 <hr class="rounded">
 
 <div class="row" style="display: block; ">
-	<div class="column" style="display: inline-block;">
-			<h2>Courses Pursued in Bachelor's</h2>
-			<body>
-			<div id="myDIV">
-				<table class="center" style="justify-content: center;">
-					<thead><tr class="tableizer-firstrow"><th>Course Name</th><th>Course Number</th></tr></thead><tbody>
-					<tr><td>ALGORITHMS AND PROBLEM SOLVING</td><td>15B11CI411</td></tr>
-					<tr><td>ALGORITHMS AND PROBLEM SOLVING LAB</td><td>15B17CI471</td></tr>
-					<tr><td>BIG DATA ANALYTICS</td><td>19B12CS419</td></tr>
-					<tr><td>COMPILER DESIGN LAB</td><td>15B17CI671</td></tr>
-					<tr><td>COMPUTATIONAL INTELLIGENCE</td><td>16B1NCI643</td></tr>
-					<tr><td>COMPUTER NETWORKS</td><td>15B11CI511</td></tr>
-					<tr><td>COMPUTER NETWORKS LAB</td><td>15B17CI571</td></tr>
-					<tr><td>COMPUTER ORGANISATION AND ARCHITECTURE</td><td>15B11CI313</td></tr>
-					<tr><td>COMPUTER ORGANISATION AND ARCHITECTURE LAB</td><td>15B17CI373</td></tr>
-					<tr><td>DATA STRUCTURES</td><td>15B11CI311</td></tr>
-					<tr><td>DATA STRUCTURES LAB</td><td>15B17CI371</td></tr>
-					<tr><td>DATABASE SYSTEMS AND WEB</td><td>15B11CI312</td></tr>
-					<tr><td>DATABASE SYSTEMS AND WEB LAB </td><td>15B17CI372</td></tr>
-					<tr><td>DIGITAL SYSTEMS LAB</td><td>15B17EC374</td></tr>
-					<tr><td>ECONOMICS</td><td>15B11HS211</td></tr>
-					<tr><td>ELECTRICAL SCIENCE LAB -1</td><td>15B17EC171</td></tr>
-					<tr><td>ELECTRICAL SCIENCE LAB -2</td><td>15B17EC271</td></tr>
-					<tr><td>ELECTRICAL SCIENCE-1</td><td>15B11EC111</td></tr>
-					<tr><td>ELECTRICAL SCIENCE-2</td><td>15B11EC211</td></tr>
-					<tr><td>ENGLISH</td><td>15B11HS112</td></tr>
-					<tr><td>ENVIRONMENTAL SCIENCE</td><td>15B11GE301</td></tr>
-					<tr><td>FRONT END PROGRAMMING</td><td>20B16CS326</td></tr>
-					<tr><td>FUZZY LOGIC AND NEURAL NETWORKS</td><td>16B1NCI432</td></tr>
-					<tr><td>HUMAN RESOURCE MANAGEMENT</td><td>16B1NHS431</td></tr>
-					<tr><td>INFORMATION SECURITY LAB</td><td>15B17CI576</td></tr>
-					<tr><td>INTRODUCTION TO DIGITAL SYSTEMS</td><td>15B11EC314</td></tr>
-					<tr><td>LIFE SKILLS</td><td>15B11HS111</td></tr>
-					<tr><td>MATHEMATICAL FOUNDATIONS OF GEOGRAPHIC INFORMATION SYSTEMS</td><td>19M12MA611</td></tr>
-					<tr><td>MATHEMATICS-1</td><td>15B11MA111</td></tr>
-					<tr><td>MATHEMATICS-2</td><td>15B11MA211</td></tr>
-					<tr><td>OPEN SOURCE SOFTWARE LAB</td><td>15B17CI575</td></tr>
-					<tr><td>OPERATING SYSTEMS AND SYSTEMS PROGRAMMING</td><td>15B11CI412</td></tr>
-					<tr><td>OPERATING SYSTEMS AND SYSTEMS PROGRAMMING LAB</td><td>15B17CI472</td></tr>
-					<tr><td>PHYSICS LAB-1</td><td>15B17PH171</td></tr>
-					<tr><td>PHYSICS LAB-2</td><td>15B17PH271</td></tr>
-					<tr><td>PHYSICS-1</td><td>15B11PH111</td></tr>
-					<tr><td>PHYSICS-2</td><td>15B11PH211</td></tr>
-					<tr><td>PRINCIPLES OF MANAGEMENT</td><td>15B1NHS434</td></tr>
-					<tr><td>PROBABILITY AND RANDOM PROCESSES</td><td>15B11MA301</td></tr>
-					<tr><td>PROJECT MANAGEMENT</td><td>16B1NHS631</td></tr>
-					<tr><td>SOCIAL AND LEGAL ISSUES</td><td>16B1NHS331</td></tr>
-					<tr><td>SOFTWARE DEVELOPMENT FUNDAMENTALS-1</td><td>15B11CI111</td></tr>
-					<tr><td>SOFTWARE DEVELOPMENT FUNDAMENTALS-2</td><td>15B11CI211</td></tr>
-					<tr><td>SOFTWARE DEVELOPMENT LAB-1</td><td>15B17CI171</td></tr>
-					<tr><td>SOFTWARE DEVELOPMENT LAB-2</td><td>15B17CI271</td></tr>
-					<tr><td>SOFTWARE ENGINEERING</td><td>15B11CI513</td></tr>
-					<tr><td>SOFTWARE ENGINEERING LAB</td><td>15B17CI573</td></tr>
-					<tr><td>STATISTICAL INFORMATION THEORY WITH APPLICATIONS</td><td>17B1NMA533</td></tr>
-					<tr><td>THEORETICAL FOUNDATIONS OF COMPUTER SCIENCE</td><td>15B11CI212</td></tr>
-					<tr><td>THEORY OF COMPUTATION AND COMPILER DESIGN</td><td>15B11CI611</td></tr>
-					</tbody>
-				</table>
-			</div>
-		</body>	
-    </div>
     <div class="column" style="display: inline-block">
         <img class="image" src="/assets/images/a5e50385862529.Y3JvcCwyMjQ4LDE3NTksMTE2LDg3Mw.png" alt="Alt Text">
 		<figcaption class="caption">JIIT</figcaption>
     </div>
+	<div class="column" style="display: inline-block;">
+		<h2>Courses Pursued in Bachelor's</h2>	
+    </div>
+	<iframe width="932.5" height="297.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
 </div>
 
