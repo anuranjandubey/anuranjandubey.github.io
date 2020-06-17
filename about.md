@@ -145,6 +145,7 @@ layout: page
 <h1 class="w3-center">Courses</h1>
 
 <div class="row" style="display: inline" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">June 2020</p>
 	</div>
@@ -165,6 +166,7 @@ layout: page
 <hr class="rounded">
 
 <div class="row" style="display: inline" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">May 2020</p>
 	</div>
@@ -185,6 +187,7 @@ layout: page
 <hr class="rounded">
 
 <div class="row" style="display: inline" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">July 2019</p>
 	</div>
@@ -209,6 +212,7 @@ layout: page
 <hr class="rounded">
 
 <div class="row" style="display: block; ">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="column" style="display: inline-block">
         <img class="image" src="/assets/images/a5e50385862529.Y3JvcCwyMjQ4LDE3NTksMTE2LDg3Mw.png" alt="Alt Text">
 		<figcaption class="caption">JIIT</figcaption>
