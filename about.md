@@ -98,18 +98,6 @@ layout: page
   <tr></tr>
   <tr>
     <td>
-      <li><b>Web & App Development</b>
-        <ul>
-          <li style="list-style:none;">HTML</li>
-          <li style="list-style:none;">CSS</li>
-          <li style="list-style:none;">JavaScript</li>
-          <li style="list-style:none;">PHP</li>
-          <li style="list-style:none;">React-Native(Expo)</li>
-          <li style="list-style:none;">Flutter</li>
-        </ul>
-      </li>
-    </td>
-    <td>
       <li><b>Machine Learning</b>
         <ul>
           <li style="list-style:none;">NLP</li>
@@ -118,6 +106,18 @@ layout: page
           <li style="list-style:none;">Stacking and Boosting Algos.<br>
             (Classification and Regression)</li>
           <li style="list-style:none;">TensorFlow</li>
+        </ul>
+      </li>
+    </td>
+    <td>
+      <li><b>Web & App Development</b>
+        <ul>
+          <li style="list-style:none;">HTML</li>
+          <li style="list-style:none;">CSS</li>
+          <li style="list-style:none;">JavaScript</li>
+          <li style="list-style:none;">PHP</li>
+          <li style="list-style:none;">React-Native(Expo)</li>
+          <li style="list-style:none;">Flutter</li>
         </ul>
       </li>
     </td>
