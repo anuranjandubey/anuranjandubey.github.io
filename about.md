@@ -4,6 +4,8 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}){:height="30%" width="30%"}
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <h1>I'm Always Up to Learn New Things.</h1>
 
 <p>I'm an aspiring software developer and a Machine Learning Enthusiast. I'm currently pursuing my Bachelor's Degree in Computer Science at Jaypee Institute Of Information Technology. Being a developer you constantly have to learn new skills and grasp knowledge of everything, and that is what i enjoy.</p>
@@ -145,7 +147,6 @@ layout: page
 <h1 class="w3-center">Courses</h1>
 
 <div class="row" style="display: inline" >
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">June 2020</p>
 	</div>
@@ -166,7 +167,6 @@ layout: page
 <hr class="rounded">
 
 <div class="row" style="display: inline" >
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">May 2020</p>
 	</div>
@@ -187,7 +187,6 @@ layout: page
 <hr class="rounded">
 
 <div class="row" style="display: inline" >
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">July 2019</p>
 	</div>
@@ -219,6 +218,6 @@ layout: page
 	<div class="column" style="display: inline-block;">
 		<h2>Courses Pursued in Bachelor's</h2>	
     </div>
-	<iframe width="932.5" content="width=device-width, initial-scale=1.0" height="297.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
+	<iframe width="932.5" height="297.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
 </div>
 
