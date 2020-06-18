@@ -64,82 +64,82 @@ layout: page
 <hr class="rounded">
 
 <h1>Technical Strengths</h1>
-
-<table style="width:100% ;text-align: left;" >
-  <tr>
-    <td>
-      <li><b>Applications & Platforms</b>
-        <ul>
-          <li style="list-style:none;">Amazon AWS (EC2)</li>
-          <li style="list-style:none;">AWS Textract(API)</li>
-          <li style="list-style:none;">Git</li>
-          <li style="list-style:none;">Jupyter Notebook </li>
-          <li style="list-style:none;">VirtualBox </li>
-          <li style="list-style:none;">MySQL</li>
-          <li style="list-style:none;">Photoshop</li>
-          <li style="list-style:none;">Visual Studio Code</li>
-		  <li style="list-style:none;">Microsoft Office</li>
-        </ul>
-      </li>
-    </td>
-    <td>
-      <li><b>Languages</b>
-        <ul>
-          <li style="list-style:none;">Python</li>
-          <li style="list-style:none;">C and C++</li>
-          <li style="list-style:none;">HTML</li>
-          <li style="list-style:none;">Javascript</li>
-          <li style="list-style:none;">SQL</li>
-          <li style="list-style:none;">PL/SQL</li>
-          <li style="list-style:none;">LaTeX </li>
-          <li style="list-style:none;">Assembly<br>(8085,8086,MIPS)</li>
-        </ul>
-      </li>
-    </td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td>
-      <li><b>Machine Learning</b>
-        <ul>
-          <li style="list-style:none;">NLP</li>
-          <li style="list-style:none;">Image Processing(OpenCV)</li>
-          <li style="list-style:none;">Regex</li>
-          <li style="list-style:none;">Stacking and Boosting Algos.<br>
-            (Classification and Regression)</li>
-          <li style="list-style:none;">TensorFlow</li>
-        </ul>
-      </li>
-    </td>
-    <td>
-      <li><b>Web & App Development</b>
-        <ul>
-          <li style="list-style:none;">HTML</li>
-          <li style="list-style:none;">CSS</li>
-          <li style="list-style:none;">JavaScript</li>
-          <li style="list-style:none;">PHP</li>
-          <li style="list-style:none;">React-Native(Expo)</li>
-          <li style="list-style:none;">Flutter</li>
-        </ul>
-      </li>
-    </td>
-  </tr>
-  <tr></tr>
-  <tr>
-    <td>
-      <li><b>Operating System</b>
-          <ul>
-              <li style="list-style:none;">Mac-OSX</li>
-              <li style="list-style:none;">Linux(Ubuntu & CentOS)</li>
-              <li style="list-style:none;">Windows</li>
-              <li style="list-style:none;">Android</li>
-          </ul>
-      </li>
-    </td>
-    <td></td>
-  </tr>
-</table>
-
+<div>
+	<table style="width:100% ;text-align: left;" >
+	<tr>
+		<td>
+		<li><b>Applications & Platforms</b>
+			<ul>
+			<li style="list-style:none;">Amazon AWS (EC2)</li>
+			<li style="list-style:none;">AWS Textract(API)</li>
+			<li style="list-style:none;">Git</li>
+			<li style="list-style:none;">Jupyter Notebook </li>
+			<li style="list-style:none;">VirtualBox </li>
+			<li style="list-style:none;">MySQL</li>
+			<li style="list-style:none;">Photoshop</li>
+			<li style="list-style:none;">Visual Studio Code</li>
+			<li style="list-style:none;">Microsoft Office</li>
+			</ul>
+		</li>
+		</td>
+		<td>
+		<li><b>Languages</b>
+			<ul>
+			<li style="list-style:none;">Python</li>
+			<li style="list-style:none;">C and C++</li>
+			<li style="list-style:none;">HTML</li>
+			<li style="list-style:none;">Javascript</li>
+			<li style="list-style:none;">SQL</li>
+			<li style="list-style:none;">PL/SQL</li>
+			<li style="list-style:none;">LaTeX </li>
+			<li style="list-style:none;">Assembly<br>(8085,8086,MIPS)</li>
+			</ul>
+		</li>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+		<li><b>Machine Learning</b>
+			<ul>
+			<li style="list-style:none;">NLP</li>
+			<li style="list-style:none;">Image Processing(OpenCV)</li>
+			<li style="list-style:none;">Regex</li>
+			<li style="list-style:none;">Stacking and Boosting Algos.<br>
+				(Classification and Regression)</li>
+			<li style="list-style:none;">TensorFlow</li>
+			</ul>
+		</li>
+		</td>
+		<td>
+		<li><b>Web & App Development</b>
+			<ul>
+			<li style="list-style:none;">HTML</li>
+			<li style="list-style:none;">CSS</li>
+			<li style="list-style:none;">JavaScript</li>
+			<li style="list-style:none;">PHP</li>
+			<li style="list-style:none;">React-Native(Expo)</li>
+			<li style="list-style:none;">Flutter</li>
+			</ul>
+		</li>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+		<td>
+		<li><b>Operating System</b>
+			<ul>
+				<li style="list-style:none;">Mac-OSX</li>
+				<li style="list-style:none;">Linux(Ubuntu & CentOS)</li>
+				<li style="list-style:none;">Windows</li>
+				<li style="list-style:none;">Android</li>
+			</ul>
+		</li>
+		</td>
+		<td></td>
+	</tr>
+	</table>
+</div>
 <hr class="rounded">
 
 <!--COURSE START-->
