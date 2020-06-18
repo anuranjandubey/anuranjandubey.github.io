@@ -152,8 +152,7 @@ layout: page
 - Genetic Technologies (CRISPR)
 - Brain Interface Technologies.
 
-
-<div id="coursespage"></div>
+<div id="course"></div>
 
 <hr class="rounded">
 
@@ -240,4 +239,4 @@ layout: page
 
 <hr class="rounded">
 
-[Back to top](#top)
+[Back to Top](#top)

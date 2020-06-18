@@ -30,16 +30,26 @@
             {% endif %}
         {% endif %}
 
-        {% if page.title == "About" %}
-            <li class="item">
-                <a class="link" href="#coursespage">Courses</a>
-            </li>
-        {% endif %}
-    
         {% if site.resume == true %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/Resume">Résumé</a>
             </li>
         {% endif %}
+
+
+        {% if page.title == "About" %}
+            <li class="item">
+                <a class="link" href="#course">Courses</a>
+            </li>
+        {% endif %}
+
+        {% if site.about == true %}
+            {% if page.title != "Achievements" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/Achievements">Achievements</a>
+            </li>
+            {% endif %}
+        {% endif %}
+
     </ul>
 </nav>
