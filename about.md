@@ -65,7 +65,7 @@ layout: page
 
 <h1>Technical Strengths</h1>
 
-<table style="width:125% ;text-align: left;" >
+<table style="width:100% ;text-align: left;" >
   <tr>
     <td>
       <li><b>Languages</b>
