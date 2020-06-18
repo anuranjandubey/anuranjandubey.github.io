@@ -218,6 +218,6 @@ layout: page
 	<div class="column" style="display: inline-block;">
 		<h2>Courses Pursued in Bachelor's</h2>	
     </div>
-	<iframe width="100%" height="300" style="others" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
+	<iframe width="100%" height="300" style="display: flex;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
 </div>
 
