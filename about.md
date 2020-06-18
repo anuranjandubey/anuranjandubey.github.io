@@ -150,13 +150,13 @@ layout: page
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">June 2020</p>
 	</div>
-	<div class="column" style="display: inline-block">
-		<h2><a href="https://www.udemy.com/course/react-native-the-practical-guide/">React Native The Practical Guide 2020</a></h2><br>
-		<h2><a href="https://www.udemy.com/certificate/UC-6ad58f28-3b90-4700-8831-cf06c9bd71fb/">[Certificate]</a></h2>
-	</div>
 	<div class="column" style="display: inline-block" >
 			<img class="image" src="/assets/images/default-meta-image.png" width="100%">
 		<figcaption class="caption">Udemy</figcaption>
+	</div>
+	<div class="column" style="display: inline-block">
+		<h2><a href="https://www.udemy.com/course/react-native-the-practical-guide/">React Native The Practical Guide 2020</a></h2><br>
+		<h2><a href="https://www.udemy.com/certificate/UC-6ad58f28-3b90-4700-8831-cf06c9bd71fb/">[Certificate]</a></h2>
 	</div>
 	<div class="column" style="display: inline-block" >
 		<img class="image" src="/assets/images/React-logo.png" alt="Alt Text">
@@ -170,13 +170,13 @@ layout: page
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">May 2020</p>
 	</div>
-	<div class="column" style="display: inline-block">
-		<h2><a href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">Python for Data Science and Machine<br> Learning Bootcamp</a></h2><br>
-		<h2><a href="https://www.udemy.com/certificate/UC-9db54b04-7ede-4113-b8ee-278a9c4bc1c3/">[Certificate]</a></h2>
-	</div>
 	<div class="column" style="display: inline-block" >
 			<img class="image" src="/assets/images/default-meta-image.png" width="100%">
 		<figcaption class="caption">Udemy</figcaption>
+	</div>
+	<div class="column" style="display: inline-block">
+		<h2><a href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">Python for Data Science and Machine<br> Learning Bootcamp</a></h2><br>
+		<h2><a href="https://www.udemy.com/certificate/UC-9db54b04-7ede-4113-b8ee-278a9c4bc1c3/">[Certificate]</a></h2>
 	</div>
 	<div class="column" style="display: inline-block" >
 		<img class="image" src="/assets/images/python-670x335.png" alt="Alt Text">
@@ -190,17 +190,13 @@ layout: page
 	<div class="column" style="display: block">
 		<p style="vertical-align: top">July 2019</p>
 	</div>
-	<div class="column" style="display: inline-block">
-		<h2><a href="https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-IN&campaignid=1950458127&adgroupid=71501032500&device=c&keyword=coursera%20machine%20learning&matchtype=e&network=g&devicemodel=&adpostion=&creativeid=415449761695&hide_mobile_promo&gclid=CjwKCAjw8pH3BRAXEiwA1pvMscFX0cPue4hi6XjBeLf-g7ADd8Lz3tJX7tTXYjwoh0tTX3K_Qv1sIhoC-e8QAvD_BwE">Machine Learning <br>by Andrew Ng<br>(Stanford)</a></h2><br>
-		<h2><a href="https://www.coursera.org/account/accomplishments/verify/TME8CTEUJK5E">[Certificate]</a></h2>
-	</div>
 	<div class="column" style="display: inline-block" >
 			<img class="image" src="/assets/images/coursera-logo-square.png" alt="Alt Text">
 		<figcaption class="caption">Coursera</figcaption>
 	</div>
-	<div class="column" style="display: inline-block" >
-		<img class="image" src="/assets/images/MachineLearninginMarketing-1621x1000.png" alt="Alt Text">
-		<figcaption class="caption">Machine Learning</figcaption>
+	<div class="column" style="display: inline-block">
+		<h2><a href="https://www.coursera.org/learn/machine-learning?utm_source=gg&utm_medium=sem&utm_content=07-StanfordML-IN&campaignid=1950458127&adgroupid=71501032500&device=c&keyword=coursera%20machine%20learning&matchtype=e&network=g&devicemodel=&adpostion=&creativeid=415449761695&hide_mobile_promo&gclid=CjwKCAjw8pH3BRAXEiwA1pvMscFX0cPue4hi6XjBeLf-g7ADd8Lz3tJX7tTXYjwoh0tTX3K_Qv1sIhoC-e8QAvD_BwE">Machine Learning - by Andrew Ng<br>(Stanford)</a></h2><br>
+		<h2><a href="https://www.coursera.org/account/accomplishments/verify/TME8CTEUJK5E">[Certificate]</a></h2>
 	</div>
 	<div class="column" style="display: inline-block" >
 		<img class="image" src="/assets/images/stanford-university-1-UU.png" alt="Alt Text">
@@ -212,14 +208,16 @@ layout: page
 
 <div class="row" style="display: block; ">
     <div class="column" style="display: inline-block">
-        <img class="image" src="/assets/images/a5e50385862529.Y3JvcCwyMjQ4LDE3NTksMTE2LDg3Mw.png" alt="Alt Text">
+        <img style="vertical-align: top" class="image" src="/assets/images/a5e50385862529.Y3JvcCwyMjQ4LDE3NTksMTE2LDg3Mw.png" alt="Alt Text">
 		<figcaption class="caption">JIIT</figcaption>
     </div>
 	<div class="column" style="display: inline-block;">
-		<h2>Courses Pursued in Bachelor's</h2>	
+		<h2>Courses Pursued in Bachelor's</h2><br>
     </div>
 	<div style="display: grid; grid-gap: 5px; grid-template-columns: repeat(auto-fit, 100px ;grid-template-rows: repeat(2, 100px);">
-		<object data="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive" height="300px"></object>
+			<object data="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&format=interactive"></object>
 	</div>
 </div>
+<hr class="rounded">
 
+[Back to top](#top)
