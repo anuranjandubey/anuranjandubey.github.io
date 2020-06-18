@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}){:height="30%" width="30%"}
+![Markdown Image](/assets/images/profilefull.jpeg)
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -140,10 +140,29 @@ layout: page
 	</tr>
 	</table>
 </div>
+
+<hr class="rounded">
+
+<h1 class="w3-center">Interests</h1>
+
+- Competitive Programming ( Motivational Boost. )
+- War-games ( Improves Strategical Skills. )
+- Automobiles( Specially Sports & Tech. Related. )
+- Music ( Makes me More Productive and Focused. )
+- Genetic Technologies (CRISPR)
+- Brain Interface Technologies.
+
+
+<div id="coursespage"></div>
+
+<hr class="rounded">
+
+<div class="breaker"></div>
+
 <hr class="rounded">
 
 <!--COURSE START-->
-<div id="coursespage"></div>
+
 <h1 class="w3-center">Courses</h1>
 
 <div class="row" style="display: inline" >
@@ -218,6 +237,7 @@ layout: page
 			<object data="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&format=interactive"></object>
 	</div>
 </div>
+
 <hr class="rounded">
 
 [Back to top](#top)
