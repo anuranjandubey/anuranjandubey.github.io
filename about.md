@@ -219,7 +219,7 @@ layout: page
 		<h2>Courses Pursued in Bachelor's</h2>	
     </div>
 	<div style="display: grid; grid-gap: 5px; grid-template-columns: repeat(auto-fit, 100px ;grid-template-rows: repeat(2, 100px);">
-		<object data="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive" width="600" height="300"></object>
+		<object data="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive" height="300px"></object>
 	</div>
 </div>
 
