@@ -5,9 +5,7 @@ layout: post
 
 <hr class="rounded">
 <div>
-    <object data="/assets/Anuranjan_Dubey.pdf" type="application/pdf" width="100%" height="1200px">
-        <embed src="/assets/Anuranjan_Dubey.pdf" type="application/pdf">
-    </object>
+    <img src="/assets/images/Anuranjan.png" style="border: 5px solid;">
 </div>
 <h3 class="title">
     <a style="background-color: indigo; color: white; padding: 14px 25px; text-align: center;
