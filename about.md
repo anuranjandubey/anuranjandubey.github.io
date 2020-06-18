@@ -65,7 +65,7 @@ layout: page
 
 <h1>Technical Strengths</h1>
 <div>
-	<table style="width:100% ;text-align: left;" >
+	<table style="width: 100% ;" >
 	<tr>
 		<td>
 		<li><b>Applications & Platforms</b>
@@ -219,7 +219,7 @@ layout: page
 		<h2>Courses Pursued in Bachelor's</h2>	
     </div>
 	<div style="display: grid; grid-gap: 5px; grid-template-columns: repeat(auto-fit, 100px ;grid-template-rows: repeat(2, 100px);">
-		<iframe height="300" style="overflow-x:auto;" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
+		<iframe width="591.0690235690236" height="300" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&amp;format=interactive"></iframe>
 	</div>
 </div>
 

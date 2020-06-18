@@ -42,11 +42,14 @@ p
 		width: 30%
 table
 	width: 100%
+	margin-left: auto
+	margin-right: auto
 
 	@media #{$mobile}
 		width: 30%
 
 div
+	justify-content: center
 	letter-spacing: 0.4px
 
 	@media #{$mobile}
@@ -63,9 +66,14 @@ ol
 		font-weight: 300
 		color: $alpha
 
-img,
-pre,
 iframe
+	overflow-x : auto
+	
+	@media #{$mobile}
+		width: 30%
+
+img,
+pre
 	width: 100%
 
 	@media #{$mobile}
