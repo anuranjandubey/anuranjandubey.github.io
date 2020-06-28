@@ -1,5 +1,5 @@
 ---
-title: "KafkaMongoDBMicro"
+title: "FindMyFunds : Querying US Funds From MongoDB Streamed via Kafka"
 layout: post
 date: 2020-05-20 12:10
 image: /assets/images/projectKafka.png
@@ -12,8 +12,8 @@ number: "1. "
 
 - A Simple Java-Kafka MicroService with MongoDB as source Database.
 
-- Producer can Easily Search the Data by name or by id in the MongoDB Cloud Server.
+- A microservice built over Apache Kafka which queries US Funds and ETFs from Yahoo Finance stored in MongoDB.
 
 <hr class="rounded">
 
-[You can see it here.](https://github.com/almique/KafkaMongoDBMicro)
+[You can Find it here.](https://github.com/almique/FindMyFunds)
