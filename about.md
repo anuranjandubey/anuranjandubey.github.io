@@ -20,11 +20,18 @@ layout: page
 
 <ul class="work-list">
 	<li>
-		<h3>JPMorgan Chase & Co.</h3>
+		<h3>Microsoft (Virtual)</h3>
+		[ July 2020 ]<br>
+		<b>Engineering: Undergraduate & Masters Virtual Internship Platform</b><br>
+		[ Through InsideSherpa. Campus to Corporate: Business Foundation Skills, Work Ready Skills, Technical Engineer Skills ]<br>
+		<a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf">Certificate</a><br>
+	</li>
+	<li>
+		<h3>JPMorgan Chase & Co.(Virtual)</h3>
 		[ May 2020 ]<br>
 		<b>Software Engineering Virtual Experience Intern.</b><br>
-		[ Establishing Financial Data Feeds, Frontend Web Development and Data Visualization with Perspective ]<br>
-		<a href="https://drive.google.com/file/d/1X2eWjv-8ka2HHBaHKmjh-2VdnL_GTH-9/view">Certificate</a><br>
+		[ Through InsideSherpa. Establishing Financial Data Feeds, Frontend Web Development and Data Visualization with Perspective ]<br>
+		<a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_n5bSz2pkkeEC3To7G_completion_certificate.pdf">Certificate</a><br>
 	</li>
 </ul>
 <hr class="rounded">
