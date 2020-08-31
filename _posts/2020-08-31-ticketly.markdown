@@ -21,10 +21,10 @@ LoadBalancerURL: http://ticketlymain-1835126091.ap-south-1.elb.amazonaws.com:847
 
 QR Code(Tryit on Your Phone): 
 
-<img src = "https://github.com/almique/Movie_Ticket_Booking/raw/master/assets/qrcode.png" width = 150>
+<img src = "https://github.com/almique/Movie_Ticket_Booking/raw/master/assets/qrcode.png" width = 50>
 
 
-![Ticketly](assets/images/fast/Ticketly.png)
+![Ticketly](/assets/images/Ticketly.png)
 ## Object Model
 
 1. **TicketSlot** : A logical entity which defines movieslot (could be extended to documentaries, concerts etc - Hence the name `TicketSlot` and not just `MovieSlot`). It is defined as following:
@@ -149,12 +149,12 @@ QR Code(Tryit on Your Phone):
 # Application Architecture
 ## UML Diagram
 Since this seems like a system which might need code volution, new features to be added in future, I decided to closely follow the **OOPS paradigm**. UML also makes it easy to think through and handle corner cases.
-![UML](assets/images/fast/UML_Diagram.png)
+![UML](assets/images/UML_Diagram.png)
 
 The architecture of the application involves back-facing and a client-facing parts. I decided to use AWS for the backend of the application. The application is configured to use ec2, however, the instances are throttled and managed according to the scaling policies defined using **AWS AutoScaling Groups**. This is all configured behind an **Application Load Balancer (ALB)** which hides all the complexity from the user. 
 
 When the ALB receives a request, it is automatically routed to one of the ec2 instances within the target group.
-![Design](assets/images/fast/MovieAppArchitecture.png)
+![Design](assets/images/MovieAppArchitecture.png)
 
 ## Data Layer
 For static content, we could leverage AWS Amplify and S3. For tables in particular, I decided to use **DynamoDB** for two reasons:
@@ -163,7 +163,7 @@ For static content, we could leverage AWS Amplify and S3. For tables in particul
 
 ### Fractional Millisecond Latency on SCAN operations
 As shown below, even witha  simulated load test, the DynamoDB database can handle sub-millisecond latency for scans. (Note that this does not include GET operations where *hash_key* is involved, which are `O(logn)`)
-![ScanLatency](assets/images/fast/cloudwatch_scan_latency.png)
+![ScanLatency](assets/images/cloudwatch_scan_latency.png)
 
 ## Scaling The Application
 I chose to define a two-fold scaling mechanism. New nodes (ec2-instances) are spawned automatically if:
@@ -171,22 +171,22 @@ I chose to define a two-fold scaling mechanism. New nodes (ec2-instances) are sp
 2. The network load as observed by the nodes is higher than specified threadshold.
 
 This could also be configured using **CloudWatch** logs. But because of limited time, I didn't get a chance to do it
-![ScalingPolicies](assets/images/fast/scaling_policies_network.png)
+![ScalingPolicies](assets/images/scaling_policies_network.png)
 
 ### Node Status on AWS Dashboard
-![NodeStatus](assets/images/fast/node_status.png)
+![NodeStatus](assets/images/node_status.png)
 
 ### Alarms Set For DDoS & Database Protection
 AWS allows SNS alarms (Simple Notification Service) to be set up if there is an unusually high amount of load on the database
 
-![NodeAlarm](assets/images/fast/sns_topic_alarm.png)
+![NodeAlarm](assets/images/sns_topic_alarm.png)
 
 
 # The Nitty-Gritty
 
 ## Test Framework
 **pytest** is used as the testing framework:
-![pytest](assets/images/fast/test.png)
+![pytest](assets/images/test.png)
 
 
 
