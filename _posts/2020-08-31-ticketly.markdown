@@ -17,14 +17,14 @@ A Movie Theatre Ticket Booking System Build in Python Using FastAPI.
 ## Swagger Page
 ### See It In Action
 
-LoadBalancerURL: http://ticketlymain-1835126091.ap-south-1.elb.amazonaws.com:8477/docs#/
+LoadBalancerURL(http://ticketlymain-1835126091.ap-south-1.elb.amazonaws.com:8477/docs#/)
 
 QR Code(Tryit on Your Phone): 
 
-<img src = "https://github.com/almique/Movie_Ticket_Booking/raw/master/assets/qrcode.png" width = 50>
+![QR](https://github.com/almique/Movie_Ticket_Booking/raw/master/assets/qrcode.png)
 
 
-![Ticketly](/https://github.com/anuranjandubey/anuranjandubey.github.io/raw/master/assets/images/Ticketly.png)
+![Ticketly](https://github.com/anuranjandubey/anuranjandubey.github.io/raw/master/assets/images/Ticketly.png)
 ## Object Model
 
 1. **TicketSlot** : A logical entity which defines movieslot (could be extended to documentaries, concerts etc - Hence the name `TicketSlot` and not just `MovieSlot`). It is defined as following:
