@@ -17,11 +17,11 @@ A Movie Theatre Ticket Booking System Build in Python Using FastAPI.
 ## Swagger Page
 ### See It In Action
 
-LoadBalancerURL(http://ticketlymain-1835126091.ap-south-1.elb.amazonaws.com:8477/docs#/)
+[LoadBalancer](http://ticketlymain-1835126091.ap-south-1.elb.amazonaws.com:8477/docs#/)
 
 QR Code(Tryit on Your Phone): 
 
-![QR](https://github.com/almique/Movie_Ticket_Booking/raw/master/assets/qrcode.png)
+![QR](https://github.com/almique/Movie_Ticket_Booking/raw/master/assets/qrcode.png =150x150)
 
 
 ![Ticketly](https://github.com/anuranjandubey/anuranjandubey.github.io/raw/master/assets/images/Ticketly.png)
