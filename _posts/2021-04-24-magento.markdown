@@ -1,0 +1,19 @@
+---
+title: "Magento 2.3 Product Integration"
+layout: post
+date: 2021-04-24 12:10
+image: /assets/images/magento.png
+headerImage: true
+projects: true
+category: project
+externalLink: false
+number: "1. "
+---
+
+- An integration for Magento Store to fetch all the products from Magento Storefront.
+
+- Uses Graphql, and token based authentication.
+
+<hr class="rounded">
+
+[You can Find it here.](https://github.com/almique/Magento23)

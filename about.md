@@ -8,30 +8,78 @@ layout: page
 
 <h1>I'm Always Up to Learn New Things.</h1>
 
-<p>I'm an aspiring software developer and a Machine Learning Enthusiast. I'm currently pursuing my Bachelor's Degree in Computer Science at Jaypee Institute Of Information Technology. Being a developer you constantly have to learn new skills and grasp knowledge of everything, and that is what i enjoy.</p>
+<p>I'm an aspiring software developer and a Machine Learning Enthusiast. I've pursued my Bachelor's Degree in Computer Science at Jaypee Institute Of Information Technology. Being a developer you constantly have to learn new skills and grasp knowledge of everything, and that is what i enjoy.</p>
+
+<p>Currently I work as Data Engineer at Genpact.I have worked in Agile(Scrum) environment in a Software Startup callled Filed.</p>
 
 <p>My mom and dad, despite being physically challenged, worked hard to send me and my brother to the most expensive private school in the town. I take pride in that. I am grateful to have been blessed with such great parents. Although i have completed my High School and Intermediate from Kendriya Vidyalaya.</p>
 
-<p>I was born in the city of Aligarh, India - "The city of Locks". I learnt 4 languages (English, Hindi, Urdu & Sanskrit) at my school, though I'm not fluent with Urdu and Sanskrit.I want to travel the world and capture it as I see it from my lens. I am quite active on Instagram.</p>
+<p>I was born in the city of Aligarh, India - "The city of Locks". I learnt 4 languages (English, Hindi, Urdu & Sanskrit) at my school, though I'm not fluent with Urdu and Sanskrit. I want to travel the world and capture it as I see it from my lens. </p>
 
-<p>I have recently started working on my fitness, you know - "Fit Mind Lies in Fit Body". Apart from that I'm a Food Lover too. I enjoy different cuisines. We can discuss places to eat around mid-town, & talk about shows on Netflix.</p>
+<p>I have recently started working on my fitness, you know - "Fit Mind Lies in Fit Body". Apart from that I'm a Food Lover too. I enjoy different cuisines. We can discuss places to eat around, & talk about shows on Netflix. Maybe you could recommend me something cool!!</p>
 <hr class="rounded">
 <h1>Work Experience</h1>
 
 <ul class="work-list">
 	<li>
-		<h3>Microsoft (Virtual)</h3>
-		[ July 2020 ]<br>
-		<b>Engineering: Undergraduate & Masters Virtual Internship Platform</b><br>
-		[ Through InsideSherpa. Campus to Corporate: Business Foundation Skills, Work Ready Skills, Technical Engineer Skills ]<br>
-		<a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf">Certificate</a><br>
+		<div class="column" style="display: inline-block" >
+			<img class="image" src="/assets/images/genpacticon.png" width="100%">
+		</div>
+		<div class="column" style="display: inline-block">
+			<h3>Genpact</h3>
+			[ June 2021]<br>
+			<b>Senior Associate(Data Engineering)</b><br>
+		</div>
 	</li>
+	<hr class="short">
 	<li>
-		<h3>JPMorgan Chase & Co.(Virtual)</h3>
-		[ May 2020 ]<br>
-		<b>Software Engineering Virtual Experience Intern.</b><br>
-		[ Through InsideSherpa. Establishing Financial Data Feeds, Frontend Web Development and Data Visualization with Perspective ]<br>
-		<a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_n5bSz2pkkeEC3To7G_completion_certificate.pdf">Certificate</a><br>
+		<div class="column" style="display: inline-block" >
+				<img class="image" src="/assets/images/filedicon.png" width="100%">
+		</div>
+		<div class="column" style="display: inline-block">
+			<h3>Filed</h3>
+			[ April 2021 - June 2021]<br>
+			<b>Software Developer</b><br>
+			[ Delivered 3 Integration for Ecommerce platforms for Product Catalogue Import. ]<br>
+		</div>
+	</li>
+	<hr class="short">
+	<li>
+		<div class="column" style="display: inline-block" >
+			<img class="image" src="/assets/images/tsficon.png" width="100%">
+		</div>
+		<div class="column" style="display: inline-block">
+			<h3>The Sparks Foundation</h3>
+			[ August 2020 ]<br>
+			<b>Data Analyst (GRIP)</b><br>
+			[ Worked on a Data Analysis Project using seaborn and matplolib. ]<br>
+		</div>
+	</li>
+	<hr class="short">
+	<li>
+		<div class="column" style="display: inline-block" >
+			<img class="image" src="/assets/images/microicon.png" width="100%">
+		</div>
+		<div class="column" style="display: inline-block">
+			<h3>Microsoft (Virtual)</h3>
+			[ July 2020 ]<br>
+			<b>Engineering: Undergraduate & Masters Virtual Internship Platform</b><br>
+			[ Through InsideSherpa. Campus to Corporate: Business Foundation Skills,<br> Work Ready Skills, Technical Engineer Skills ]<br>
+			<a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf">Certificate</a><br>
+		</div>
+	</li>
+	<hr class="short">
+	<li>
+		<div class="column" style="display: inline-block" >
+			<img class="image" src="/assets/images/jpmcicon.png" width="100%">
+		</div>
+		<div class="column" style="display: inline-block">
+			<h3>JPMorgan Chase & Co.(Virtual)</h3>
+			[ May 2020 ]<br>
+			<b>Software Engineering Virtual Experience Intern.</b><br>
+			[ Through InsideSherpa. Establishing Financial Data Feeds, <br>Frontend Web Development and Data Visualization with Perspective ]<br>
+			<a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_n5bSz2pkkeEC3To7G_completion_certificate.pdf">Certificate</a><br>
+		</div>
 	</li>
 </ul>
 <hr class="rounded">
@@ -42,7 +90,7 @@ layout: page
 		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
 		[ July 2017 ]  - [ July 2021 ]<br>
 		<b>Bachelor of Technology, Computer Science and Engineering.</b> <br>
-		<b>GPA: 7.0/10 (Current)</b><br>
+		<b>GPA: 7.3/10 </b><br>
 		<b>Activites & Societies:</b> 
 		Table Tennis Captain.
 	</li>
@@ -77,15 +125,15 @@ layout: page
 		<td>
 		<li><b>Applications & Platforms</b>
 			<ul>
+			<li style="list-style:none;">Docker</li>
+			<li style="list-style:none;">POSTMAN</li>
+			<li style="list-style:none;">GraphQL</li>
+			<li style="list-style:none;">Fast-API</li>
+			<li style="list-style:none;">Rest-API</li>
 			<li style="list-style:none;">Amazon AWS (EC2)</li>
 			<li style="list-style:none;">AWS Textract(API)</li>
 			<li style="list-style:none;">Git</li>
-			<li style="list-style:none;">Jupyter Notebook </li>
-			<li style="list-style:none;">VirtualBox </li>
 			<li style="list-style:none;">MySQL</li>
-			<li style="list-style:none;">Photoshop</li>
-			<li style="list-style:none;">Visual Studio Code</li>
-			<li style="list-style:none;">Microsoft Office</li>
 			</ul>
 		</li>
 		</td>
@@ -231,19 +279,4 @@ layout: page
 
 <hr class="rounded">
 
-<div class="row" style="display: block; ">
-    <div class="column" style="display: inline-block">
-        <img style="vertical-align: top" class="image" src="/assets/images/a5e50385862529.Y3JvcCwyMjQ4LDE3NTksMTE2LDg3Mw.png" alt="Alt Text">
-		<figcaption class="caption">JIIT</figcaption>
-    </div>
-	<div class="column" style="display: inline-block;">
-		<h2>Courses Pursued in Bachelor's</h2><br>
-    </div>
-	<div style="display: grid; grid-gap: 5px; grid-template-columns: repeat(auto-fit, 100px ;grid-template-rows: repeat(2, 100px);">
-			<object data="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpc8nxH812_2kqYH0c-FArPsoVHk05ZMc_p6otmm8tDuURpI2pzg11hqcrcDW_6EiNwvlzpB3z6Lrl/pubchart?oid=1345969048&format=interactive"></object>
-	</div>
-</div>
-
-<hr class="rounded">
-
-[Back to Top](#top)
+[Back to Top ↑](#top)
