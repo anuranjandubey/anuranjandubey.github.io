@@ -1,34 +1,8 @@
 ---
 layout: default
 ---
+{% include header.html %}
 
+{{content}}
 
-<html lang="en">
-<head>
-
-    {% if site.analytics-google %}
-        {% include analytics-google.html %}
-    {% endif %}
-
-    <meta charset="utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <meta name=author content="{{ site.name }}">
-
-    <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
-    
-    {% include header.html %}
-
-    {{content}}
-
-    {% include footer.html %}
-
-</head>
-</html>
-
-
-
-
-
+{% include footer.html %}

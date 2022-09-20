@@ -5,6 +5,12 @@ date: 2021-04-24 12:10
 image: /assets/images/magento.png
 headerImage: true
 projects: true
+tag:
+- Magento
+- Python
+- REST
+- GraphQL
+- Python
 category: project
 externalLink: false
 number: "1. "

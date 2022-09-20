@@ -4,10 +4,16 @@ layout: post
 date: 2018-09-29 12:10
 image: /assets/images/project3.png
 headerImage: true
+tag:
+- NLP
+- EMNIST
+- Classification
+- Machine Learning
+- Python
 projects: true
 category: project
 externalLink: false
-number: "5. "
+number: "6. "
 ---
 
 

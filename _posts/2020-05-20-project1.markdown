@@ -5,9 +5,14 @@ date: 2020-05-20 12:10
 image: /assets/images/projectKafka.png
 headerImage: true
 projects: true
+tag:
+- Apache Kafka
+- Java
+- MongoDB
+- Finance
 category: project
 externalLink: false
-number: "2. "
+number: "3. "
 ---
 
 - A Simple Java-Kafka MicroService with MongoDB as source Database.

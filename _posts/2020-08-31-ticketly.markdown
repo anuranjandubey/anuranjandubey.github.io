@@ -4,9 +4,14 @@ layout: post
 date: 2020-08-31 12:10
 headerImage: False
 projects: true
+tag:
+- FAST-API
+- Ticket booking
+- AWS
+- Python
 category: project
 externalLink: False
-number: "1. "
+number: "2. "
 ---
 
 
