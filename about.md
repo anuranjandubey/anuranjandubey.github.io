@@ -6,15 +6,17 @@ layout: page
 
 <h1>I'm Always Up to Learn New Things.</h1>
 
-<p>I’m a software developer and a Machine Learning Enthusiast. I’ve pursued my Bachelor’s Degree in Computer Science at Jaypee Institute of Information Technology. Currently, I’m working at Genpact India as a Developer/Data Engineer. I have previously worked in an Agile (Scrum) environment in a Software Startup called Filed. Being a developer you constantly have to learn new skills and grasp the knowledge of everything, and that is what I enjoy.</p>
+<p>I’m a software developer and a Machine Learning Enthusiast. I’ve pursued my Bachelor’s Degree in Computer Science at Jaypee Institute of Information Technology. I devoted my time to building exciting projects throughout my undergraduate degree program. As a result, I incorporated many state-of- the-art technologies like AWS (EC2), Git, MSSQL, Apache Kafka, MongoDB, and OpenCV. Currently, I’m pursuing my Master's in Computer Science at Arizona State University. </p>
+	
+<p>I worked on a research paper on classifying defects in glass bangles. In this research, I built models for classifying minor defects in bangle images with traditional feature-based approaches, such as hough transform, contour features, SIFT- based correlation and features, and image moments. I also compared several machine learning methods using these traditional features with features extracted from various deep neural networks such as VGG16, VGG19, ResNet50, and Xception through transfer learning. My work was selected at the Computer Vision and Image Processing 2022 (CVIP) Conference held at VNIT Nagpur and is published in Springer in Communications in Computer and Information Science (CCIS) Series.</p>
 
-<p>Working with technology and data, I've started to develop interest in Machine learning and AI. I recently published a paper in transfer learning as well.</p>
+<p>I also completed my UC San DiegoX MicroMasters in Data Science which has helped me explore some of the concepts required for applied data science and analysis using various libraries and how to make powerful visualizations. I maintained my enthusiasm and diligence towards occupation. I’ve consistently been awarded the "Top Performer" rating and the projects were shown as an ideal example to the new hires and people working in the insurance vertical. I have previously worked in an Agile (Scrum) environment in a Software Startup called Filed. Being a developer you constantly have to learn new skills and grasp the knowledge of everything, and that is what I enjoy.</p>
 
 <p>My mom and dad, despite being physically challenged, worked hard to send me and my brother to the most expensive private school in the town. I take pride in that. I am grateful to have been blessed with such great parents. However, I have completed my High School and Intermediate from Kendriya Vidyalaya.</p>
 
 <p>I was born in the city of Aligarh, India - "The city of Locks". I learnt 4 languages (English, Hindi, Urdu & Sanskrit) at my school, though I'm not fluent with Urdu and Sanskrit. I want to travel the world and capture it as I see it from my lens. </p>
 
-<p>I have recently started working on my fitness; you know, - A fit mind and a fit body are the keys to success. Apart from that, I’m a Food Lover and a Cafephile too. I enjoy different cuisines. I’m also an inchoate bibliophile. Recently, I read “Atomic Habits - by James Clear”; and it had a significant influence on me; and I’ve applied many techniques to be more productive throughout the day. That is all about me in a nutshell.</p>
+<p>I've recently embarked on a fitness journey, recognizing that a healthy body and mind pave the way for success. Beyond that, I'm an enthusiast of food and coffee, delighting in diverse culinary experiences. My love for books is also in its early stages, as I'm diving into various genres as a budding bibliophile. A recent read, "Atomic Habits" by James Clear, significantly impacted me, prompting the adoption of numerous techniques that enhance my daily productivity. This encapsulates a brief overview of me. That is all about me in a nutshell.</p>
 <hr class="rounded">
 <h1>Work Experience</h1>
 
@@ -25,7 +27,7 @@ layout: page
 		</div>
 		<div class="column" style="display: inline-block">
 			<h3>Genpact</h3>
-			[ June 2021]<br>
+			[ June 2021 - May 2023 ]<br>
 			<b>Senior Associate(Data Engineering)</b><br>
 		</div>
 	</li>
@@ -58,6 +60,11 @@ layout: page
 <h1>Education</h1>
 
 <ul class="education-list">
+	<li>			
+		<h3>Arizona State University</h3>
+		[ Aug 2023 ]  - [ Aug 2025 ]<br>
+		<b>Master of Science in Computer Science</b> <br>
+	</li>
 	<li>			
 		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
 		[ July 2017 ]  - [ July 2021 ]<br>
@@ -195,7 +202,7 @@ layout: page
 
 <div class="row" style="display: inline" >
 	<div class="column" style="display: block">
-			<p style="vertical-align: top">September 2022 (In-Progress)</p>
+			<p style="vertical-align: top">Sep 2022 - July 2023</p>
 		<div class="column" style="display: inline-block" >
 				<img class="image" src="/assets/images/ucsan.png" alt="Alt Text">
 			<figcaption class="caption">U.C. San Diego</figcaption>
