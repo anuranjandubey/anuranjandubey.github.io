@@ -6,7 +6,7 @@ layout: page
 
 <h1>I'm Always Up to Learn New Things.</h1>
 
-<p>I’m a software developer and a Machine Learning Enthusiast. I’ve pursued my Bachelor’s Degree in Computer Science at Jaypee Institute of Information Technology. I devoted my time to building exciting projects throughout my undergraduate degree program. As a result, I incorporated many state-of- the-art technologies like AWS (EC2), Git, MSSQL, Apache Kafka, MongoDB, and OpenCV. Currently, I’m pursuing my Master's in Computer Science at Arizona State University. </p>
+<p>I’m a software developer and a Machine Learning Enthusiast. I’ve pursued my Bachelor’s Degree in Computer Science at Jaypee Institute of Information Technology. I devoted my time to building exciting projects throughout my undergraduate and graduate degree program. As a result, I incorporated many state-of- the-art technologies like AWS (EC2), Git, MSSQL, Apache Kafka, MongoDB, and OpenCV. Currently, I’m pursuing my Master's in Computer Science at Arizona State University. </p>
 	
 <p>I worked on a research paper on classifying defects in glass bangles. In this research, I built models for classifying minor defects in bangle images with traditional feature-based approaches, such as hough transform, contour features, SIFT- based correlation and features, and image moments. I also compared several machine learning methods using these traditional features with features extracted from various deep neural networks such as VGG16, VGG19, ResNet50, and Xception through transfer learning. My work was selected at the Computer Vision and Image Processing 2022 (CVIP) Conference held at VNIT Nagpur and is published in Springer in Communications in Computer and Information Science (CCIS) Series.</p>
 
@@ -21,6 +21,17 @@ layout: page
 <h1>Work Experience</h1>
 
 <ul class="work-list">
+	<li>
+		<div class="column" style="display: inline-block" >
+			<img class="image" src="/assets/images/intuit.png" width="100%">
+		</div>
+		<div class="column" style="display: inline-block">
+			<h3>Intuit</h3>
+			[ May 2024 - Aug 2024 ]<br>
+			<b>Software Engineering Intern</b><br>
+		</div>
+	</li>
+	<hr class="short">
 	<li>
 		<div class="column" style="display: inline-block" >
 			<img class="image" src="/assets/images/genpacticon.png" width="100%">
@@ -64,6 +75,7 @@ layout: page
 		<h3>Arizona State University</h3>
 		[ Aug 2023 ]  - [ Aug 2025 ]<br>
 		<b>Master of Science in Computer Science</b> <br>
+		<b>GPA: 4.22/4 </b><br>
 	</li>
 	<li>			
 		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
