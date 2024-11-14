@@ -5,7 +5,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll-seo-tag'
     gem 'jemoji'
-    gem 'nokogiri', '~> 1.13.10'
+    gem 'nokogiri', '~> 1.16.5'
     gem 'racc', '~> 1.8.0'
     gem 'github-pages', '~> 231'
     gem 'webrick'
