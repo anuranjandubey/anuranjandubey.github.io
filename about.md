@@ -2,337 +2,565 @@
 title: About
 layout: page
 ---
-![Markdown Image](/assets/images/profilefull.jpeg)
 
-<h1>I'm Always Up to Learn New Things.</h1>
+<html>
+<head>
+    <style>
+        :root {
+            /* Color variables for dark mode */
+            --indigo-50: #1c1b29;
+            --indigo-100: #25233d;
+            --indigo-200: #373352;
+            --indigo-300: #4a4770;
+            --indigo-400: #5e5c8e;
+            --indigo-500: #7472aa;
+            --indigo-600: #908bc0;
+            --indigo-700: #b2a4db;
+            --indigo-800: #cec3f1;
+            --indigo-900: #e8e3ff;
 
-<p>I’m a software developer and a Machine Learning Enthusiast. I’ve pursued my Bachelor’s Degree in Computer Science at Jaypee Institute of Information Technology. I devoted my time to building exciting projects throughout my undergraduate and graduate degree program. As a result, I incorporated many state-of- the-art technologies like AWS (EC2), Git, MSSQL, Apache Kafka, MongoDB, and OpenCV. Currently, I’m pursuing my Master's in Computer Science at Arizona State University. </p>
-	
-<p>I worked on a research paper on classifying defects in glass bangles. In this research, I built models for classifying minor defects in bangle images with traditional feature-based approaches, such as hough transform, contour features, SIFT- based correlation and features, and image moments. I also compared several machine learning methods using these traditional features with features extracted from various deep neural networks such as VGG16, VGG19, ResNet50, and Xception through transfer learning. My work was selected at the Computer Vision and Image Processing 2022 (CVIP) Conference held at VNIT Nagpur and is published in Springer in Communications in Computer and Information Science (CCIS) Series.</p>
+            --text-color: #e0e0e0;
+            --background-color: #121212;
+            --card-background: #1f1f1f;
+            --highlight-background: #282828;
+            --border-color: #3a3a3a;
+        }
 
-<p>I also completed my UC San DiegoX MicroMasters in Data Science which has helped me explore some of the concepts required for applied data science and analysis using various libraries and how to make powerful visualizations. I maintained my enthusiasm and diligence towards occupation. I’ve consistently been awarded the "Top Performer" rating and the projects were shown as an ideal example to the new hires and people working in the insurance vertical. I have previously worked in an Agile (Scrum) environment in a Software Startup called Filed. Being a developer you constantly have to learn new skills and grasp the knowledge of everything, and that is what I enjoy.</p>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--background-color);
+        }
 
-<p>My mom and dad, despite being physically challenged, worked hard to send me and my brother to the most expensive private school in the town. I take pride in that. I am grateful to have been blessed with such great parents. However, I have completed my High School and Intermediate from Kendriya Vidyalaya.</p>
+        /* Hero section */
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 2rem;
+            background: var(--card-background);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+        }
 
-<p>I was born in the city of Aligarh, India - "The city of Locks". I learnt 4 languages (English, Hindi, Urdu & Sanskrit) at my school, though I'm not fluent with Urdu and Sanskrit. I want to travel the world and capture it as I see it from my lens. </p>
+        .hero img {
+            border-radius: 50%;
+            max-width: 200px;
+            margin: 0 auto 1.5rem;
+            display: block;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+            border: 3px solid var(--indigo-200);
+        }
 
-<p>I've recently embarked on a fitness journey, recognizing that a healthy body and mind pave the way for success. Beyond that, I'm an enthusiast of food and coffee, delighting in diverse culinary experiences. My love for books is also in its early stages, as I'm diving into various genres as a budding bibliophile. A recent read, "Atomic Habits" by James Clear, significantly impacted me, prompting the adoption of numerous techniques that enhance my daily productivity. This encapsulates a brief overview of me. That is all about me in a nutshell.</p>
-<hr class="rounded">
+        /* Section styling */
+        h1 {
+            color: var(--indigo-900);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--indigo-500);
+            padding-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: var(--indigo-700);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+        }
+
+        h3 {
+            color: var(--indigo-600);
+            font-size: 1.4rem;
+            margin-top: 0;
+        }
+
+        /* Experience cards */
+        .experience-card {
+            background: var(--card-background);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s ease;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .experience-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .company-logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-top: 0.5rem;
+        }
+
+        .experience-content {
+            flex: 1;
+        }
+
+        /* Skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .skill-category {
+            background: var(--card-background);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Badge styling */
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--indigo-200);
+            color: var(--indigo-900);
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin: 0.25rem;
+        }
+
+        /* Education cards */
+        .education-card {
+            background: var(--card-background);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--indigo-500);
+            transition: transform 0.2s ease;
+        }
+
+        .education-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .education-meta {
+            color: var(--indigo-600);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .gpa {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background-color: var(--indigo-200);
+            color: var(--indigo-900);
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin: 0.5rem 0;
+        }
+
+        /* Interests section */
+        .interests {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .interest-item {
+            background: var(--card-background);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s ease;
+        }
+
+        .interest-item:hover {
+            transform: translateY(-2px);
+            background-color: var(--highlight-background);
+        }
+
+        /* Highlight boxes */
+        .highlight {
+            background: var(--highlight-background);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--indigo-500);
+        }
+
+        /* Links styling */
+        a {
+            color: var(--indigo-600);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--indigo-400);
+            text-decoration: underline;
+        }
+
+        .certificate-link {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-color: var(--highlight-background);
+            color: var(--indigo-900);
+            border-radius: 6px;
+            margin-top: 1rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .certificate-link:hover {
+            background-color: var(--indigo-100);
+            text-decoration: none;
+        }
+
+        .course-logo {
+        width: 80px;   /* Reduced from 60px */
+        height: 80px;  /* Reduced from 60px */
+        object-fit: contain; /* Maintains aspect ratio */
+        }
+
+        .course-header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;  /* Reduced spacing between logo and text */
+        }
+
+        img[src*="ucsan"], 
+        img[src*="microicon"],
+        img[src*="coursera"],
+        img[src*="React-logo"],
+        img[src*="forage"],
+        img[src*="edx"] {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+        
+        @media (max-width: 768px) {
+        .course-logo {
+            width: 80px;
+            height: 80px;
+        }
+        }
+
+        .section-divider {
+        height: 1px;
+        background: linear-gradient(
+            to right,
+            var(--border-dark),
+            var(--indigo-400),
+            var(--border-dark)
+        );
+        margin: 3rem 0;
+        position: relative;
+    }
+
+    /* Fancy separator with icon or dot */
+    .section-divider.fancy {
+        height: 1px;
+        background: linear-gradient(
+            to right,
+            var(--border-dark),
+            var(--indigo-400),
+            var(--border-dark)
+        );
+        margin: 3rem 0;
+        position: relative;
+    }
+
+    .section-divider.fancy::before {
+        content: "•";
+        color: var(--indigo-400);
+        background-color: var(--bg-dark);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    /* Alternative separator with multiple dots */
+    .section-divider.dots {
+        height: 1px;
+        background: var(--border-dark);
+        margin: 3rem 0;
+        position: relative;
+        text-align: center;
+    }
+
+    .section-divider.dots::before {
+        content: "• • •";
+        color: var(--indigo-400);
+        background-color: var(--bg-dark);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 1rem;
+        letter-spacing: 0.5rem;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .section-divider {
+            margin: 2rem 0;
+        }
+    }
+    </style>
+</head>
+<body>
+
+# About Me
+
+<div class="hero">
+    <img src="/assets/images/profilefull.jpeg" alt="Profile Picture">
+    <h1>I'm Always Up to Learn New Things</h1>
+    <p class="highlight">Software Developer | Machine Learning Enthusiast | Graduate Student at ASU</p>
+</div>
+
+<div class="highlight">
+I'm a software developer pursuing my Master's in Computer Science at Arizona State University. Throughout my academic journey, I've worked with cutting-edge technologies including AWS, Git, MSSQL, Apache Kafka, MongoDB, and OpenCV. My passion lies in creating innovative solutions and exploring the frontiers of technology.
+</div>
+
+<div class="highlight">
+I worked on a research paper on classifying defects in glass bangles, published at CVIP 2022 Conference and featured in Springer's CCIS Series. This project combined traditional feature-based approaches with deep learning techniques, showcasing my ability to bridge classical and modern methodologies.
+</div>
+
+<div class="highlight">
+I've recently embarked on a fitness journey, recognizing that a healthy body and mind pave the way for success. Beyond coding, I'm an enthusiast of food, coffee, and a budding bibliophile. A recent read, "Atomic Habits" by James Clear, has significantly impacted my daily productivity.
+</div>
+
+<div class="section-divider"></div>
+
 <h1>Work Experience</h1>
 
-<ul class="work-list">
-	<li>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/intuit.png" width="100%">
-		</div>
-		<div class="column" style="display: inline-block">
-			<h3>Intuit</h3>
-			[ May 2024 - Aug 2024 ]<br>
-			<b>Software Engineering Intern</b><br>
-		</div>
-	</li>
-	<hr class="short">
-	<li>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/genpacticon.png" width="100%">
-		</div>
-		<div class="column" style="display: inline-block">
-			<h3>Genpact</h3>
-			[ June 2021 - May 2023 ]<br>
-			<b>Senior Associate(Data Engineering)</b><br>
-		</div>
-	</li>
-	<hr class="short">
-	<li>
-		<div class="column" style="display: inline-block" >
-				<img class="image" src="/assets/images/filedicon.png" width="100%">
-		</div>
-		<div class="column" style="display: inline-block">
-			<h3>Filed</h3>
-			[ April 2021 - June 2021]<br>
-			<b>Software Developer</b><br>
-			[ Delivered 3 Integration for Ecommerce platforms for Product Catalogue Import. ]<br>
-		</div>
-	</li>
-	<hr class="short">
-	<li>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/tsficon.png" width="100%">
-		</div>
-		<div class="column" style="display: inline-block">
-			<h3>The Sparks Foundation</h3>
-			[ August 2020 ]<br>
-			<b>Data Analyst (GRIP)</b><br>
-			[ Worked on a Data Analysis Project using seaborn and matplolib. ]<br>
-		</div>
-	</li>
-</ul>
-<hr class="rounded">
+<div class="experience-card">
+    <img class="company-logo" src="/assets/images/intuit.png" alt="Intuit Logo">
+    <div class="experience-content">
+        <h3>Intuit</h3>
+        <p><strong>Software Engineering Intern</strong></p>
+        <p class="education-meta">May 2024 - Aug 2024</p>
+    </div>
+</div>
+
+<div class="experience-card">
+    <img class="company-logo" src="/assets/images/genpacticon.png" alt="Genpact Logo">
+    <div class="experience-content">
+        <h3>Genpact</h3>
+        <p><strong>Senior Associate (Data Engineering)</strong></p>
+        <p class="education-meta">June 2021 - May 2023</p>
+    </div>
+</div>
+
+<div class="experience-card">
+    <img class="company-logo" src="/assets/images/filedicon.png" alt="Filed Logo">
+    <div class="experience-content">
+        <h3>Filed</h3>
+        <p><strong>Software Developer</strong></p>
+        <p class="education-meta">April 2021 - June 2021</p>
+        <p>Delivered 3 Integration for Ecommerce platforms for Product Catalogue Import.</p>
+    </div>
+</div>
+
+<div class="experience-card">
+    <img class="company-logo" src="/assets/images/tsficon.png" alt="The Sparks Foundation Logo">
+    <div class="experience-content">
+        <h3>The Sparks Foundation</h3>
+        <p><strong>Data Analyst (GRIP)</strong></p>
+        <p class="education-meta">August 2020</p>
+        <p>Worked on a Data Analysis Project using seaborn and matplotlib.</p>
+    </div>
+</div>
+
+
+<div class="section-divider dots"></div>
+
 <h1>Education</h1>
 
-<ul class="education-list">
-	<li>			
-		<h3>Arizona State University</h3>
-		[ Aug 2023 ]  - [ Aug 2025 ]<br>
-		<b>Master of Science in Computer Science</b> <br>
-		<b>GPA: 4.22/4 </b><br>
-	</li>
-	<li>			
-		<h3>Jaypee Institute of Information Technology, Sector 128, Noida, Uttar Pradesh, India.</h3>
-		[ July 2017 ]  - [ July 2021 ]<br>
-		<b>Bachelor of Technology, Computer Science and Engineering.</b> <br>
-		<b>GPA: 7.3/10 </b><br>
-		<b>Activites & Societies:</b> 
-		Table Tennis Captain.
-	</li>
-	<li>
-		<h3>Kendriya Vidyalaya, Aligarh, Uttar Pradesh, India 12th (Intermediate).</h3>
-		[ May 2015 ]  - [ May 2016 ]<br>
-		<b>Science Stream With Overall Percentage 80%</b><br>
-		<b>Second Topper ,Secured Highest Marks in Computer Science and Chemistry.</b> <br>
-		<b>Activites & Societies:</b>
-		School Captain, House Captain.
-	</li>
-	<li>
-		<h3>Kendriya Vidyalaya, Aligarh, Uttar Pradesh, India 10th (High School).</h3>
-		[ May 2013 ]  - [ May 2014 ]<br>
-		<b>All India Topper with Merit Certificate in All Subjects.</b><br>
-		<b>CGPA: 10 (Out of 10)</b> <br>
-		<b>Won several CCE Activities.(Student With Most Awards and Certificate of the year).</b>
-	</li>
-	<li>
-		<h3>Delhi Public School Aligarh.</h3>
-		[ 2006 ]  - [ 2011 ]<br>
-		<b>Attended School From 3rd Standard To 7th Standard </b>
-	</li>
-</ul>
+<div class="education-card">
+    <h3>Arizona State University</h3>
+    <div class="education-meta">Aug 2023 - Aug 2025</div>
+    <p><strong>Master of Science in Computer Science</strong></p>
+    <div class="gpa">GPA: 4.22/4</div>
+</div>
 
-<hr class="rounded">
+<div class="education-card">
+    <h3>Jaypee Institute of Information Technology</h3>
+    <div class="education-meta">July 2017 - July 2021</div>
+    <p><strong>Bachelor of Technology, Computer Science and Engineering</strong></p>
+    <div class="gpa">GPA: 7.3/10</div>
+    <p><strong>Activities:</strong> Table Tennis Captain</p>
+</div>
 
+<div class="education-card">
+    <h3>Kendriya Vidyalaya, Aligarh</h3>
+    <div class="education-meta">May 2015 - May 2016</div>
+    <p><strong>Intermediate (12th)</strong></p>
+    <p>Science Stream with 80% Overall</p>
+    <p>Second Topper, Highest Marks in Computer Science and Chemistry</p>
+    <p><strong>Activities:</strong> School Captain, House Captain</p>
+</div>
+
+<div class="education-card">
+    <h3>Kendriya Vidyalaya, Aligarh</h3>
+    <div class="education-meta">May 2013 - May 2014</div>
+    <p><strong>High School (10th)</strong></p>
+    <div class="gpa">CGPA: 10/10</div>
+    <p>All India Topper with Merit Certificate in All Subjects</p>
+</div>
+
+
+
+<div class="section-divider dots"></div>
 <h1>Technical Knowledge</h1>
-<div>
-	<table style="width: 100% ;" >
-	<tr>
-		<td>
-		<li><b>Applications & Platforms</b>
-			<ul>
-			<li style="list-style:none;">Docker</li>
-			<li style="list-style:none;">POSTMAN</li>
-			<li style="list-style:none;">GraphQL</li>
-			<li style="list-style:none;">Fast-API</li>
-			<li style="list-style:none;">Rest-API</li>
-			<li style="list-style:none;">Amazon AWS (EC2)</li>
-			<li style="list-style:none;">AWS Textract(API)</li>
-			<li style="list-style:none;">Git</li>
-			<li style="list-style:none;">MSSQL</li>
-			<li style="list-style:none;">CyberArk</li>
-			</ul>
-		</li>
-		</td>
-		<td>
-		<li><b>Languages</b>
-			<ul>
-			<li style="list-style:none;">Python</li>
-			<li style="list-style:none;">C and C++</li>
-			<li style="list-style:none;">HTML</li>
-			<li style="list-style:none;">Javascript</li>
-			<li style="list-style:none;">SQL</li>
-			<li style="list-style:none;">PL/SQL</li>
-			<li style="list-style:none;">LaTeX </li>
-			<li style="list-style:none;">Assembly<br>(8085,8086,MIPS)</li>
-			</ul>
-		</li>
-		</td>
-	</tr>
-	<tr></tr>
-	<tr>
-		<td>
-		<li><b>Machine Learning</b>
-			<ul>
-			<li style="list-style:none;">NLP</li>
-			<li style="list-style:none;">Image Processing(OpenCV)</li>
-			<li style="list-style:none;">Regex</li>
-			<li style="list-style:none;">Stacking and Boosting Algos.<br>
-				(Classification and Regression)</li>
-			<li style="list-style:none;">TensorFlow</li>
-			</ul>
-		</li>
-		</td>
-		<td>
-		<li><b>Web & App Development</b>
-			<ul>
-			<li style="list-style:none;">HTML</li>
-			<li style="list-style:none;">CSS</li>
-			<li style="list-style:none;">JavaScript</li>
-			<li style="list-style:none;">PHP</li>
-			<li style="list-style:none;">React-Native(Expo)</li>
-			<li style="list-style:none;">Flutter</li>
-			</ul>
-		</li>
-		</td>
-	</tr>
-	<tr></tr>
-	<tr>
-		<td>
-		<li><b>Operating System</b>
-			<ul>
-				<li style="list-style:none;">Mac-OSX</li>
-				<li style="list-style:none;">Linux(Ubuntu & CentOS)</li>
-				<li style="list-style:none;">Windows</li>
-				<li style="list-style:none;">Android</li>
-			</ul>
-		</li>
-		</td>
-		<td></td>
-	</tr>
-	</table>
+
+<div class="skills-container">
+    <div class="skills-section">
+        <h3>Applications & Platforms</h3>
+        <div class="skills-badges">
+            <span class="badge">Docker</span>
+            <span class="badge">POSTMAN</span>
+            <span class="badge">GraphQL</span>
+            <span class="badge">Fast-API</span>
+            <span class="badge">AWS (EC2)</span>
+            <span class="badge">Git</span>
+            <span class="badge">MSSQL</span>
+            <span class="badge">CyberArk</span>
+        </div>
+    </div>
+
+    <div class="skills-section">
+        <h3>Languages</h3>
+        <div class="skills-badges">
+            <span class="badge">Python</span>
+            <span class="badge">C/C++</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">SQL</span>
+            <span class="badge">PL/SQL</span>
+            <span class="badge">HTML</span>
+            <span class="badge">LaTeX</span>
+            <span class="badge">Assembly</span>
+        </div>
+    </div>
+
+    <div class="skills-section">
+        <h3>Machine Learning</h3>
+        <div class="skills-badges">
+            <span class="badge">NLP</span>
+            <span class="badge">OpenCV</span>
+            <span class="badge">Image Processing</span>
+            <span class="badge">TensorFlow</span>
+            <span class="badge">Regex</span>
+            <span class="badge">Classification</span>
+            <span class="badge">Regression</span>
+        </div>
+    </div>
+
+    <div class="skills-section">
+        <h3>Web & App Development</h3>
+        <div class="skills-badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">PHP</span>
+            <span class="badge">React-Native</span>
+            <span class="badge">Flutter</span>
+        </div>
+    </div>
+
+    <div class="skills-section">
+        <h3>Operating Systems</h3>
+        <div class="skills-badges">
+            <span class="badge">Mac-OSX</span>
+            <span class="badge">Linux</span>
+            <span class="badge">Windows</span>
+            <span class="badge">Android</span>
+        </div>
+    </div>
 </div>
 
-<hr class="rounded">
+<div class="section-divider dots"></div>
 
-<h1 class="w3-center">Interests</h1>
+<h1>Courses and Certifications</h1>
 
-- Competitive Programming
-- Automobiles( Specially Sports & Tech. Related. )
-- Music and Art (<a href="https://www.instagram.com/adxdall.e2/">[Instagram DallE2 Art]</a>)
-- Genetic Technologies (CRISPR)
-- Brain Interface Technologies.
-- Machine Learning and Artificial Intelligence
+<div class="course-grid">
+    <div class="course-card">
+        <div class="course-header">
+            <img src="/assets/images/ucsan.png" alt="UC San Diego" class="course-logo">
+            <div class="course-meta">
+                <div class="course-date">Sep 2022 - July 2023</div>
+                <h3>Data Science MicroMasters® Program</h3>
+            </div>
+        </div>
+        <p>Python for Data Science, Probability and Statistics, Machine Learning Fundamentals, Big Data Analytics Using Spark</p>
+    </div>
 
-<div id="course"></div>
+    <div class="course-card">
+        <div class="course-header">
+            <img src="/assets/images/microicon.png" alt="Microsoft" class="course-logo">
+            <div class="course-meta">
+                <div class="course-date">July 2020</div>
+                <h3>Engineering Virtual Internship</h3>
+            </div>
+        </div>
+        <p>Business Foundation Skills, Work Ready Skills, Technical Engineer Skills</p>
+        <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf" class="certificate-link">View Certificate →</a>
+    </div>
 
-<hr class="rounded">
+    <div class="course-card">
+        <div class="course-header">
+            <img src="/assets/images/React-logo.png" alt="React" class="course-logo">
+            <div class="course-meta">
+                <div class="course-date">June 2020</div>
+                <h3>React Native The Practical Guide</h3>
+            </div>
+        </div>
+        <p>Comprehensive course on React Native development</p>
+        <a href="https://www.udemy.com/certificate/UC-6ad58f28-3b90-4700-8831-cf06c9bd71fb/" class="certificate-link">View Certificate →</a>
+    </div>
 
-<div class="breaker"></div>
-
-<hr class="rounded">
-
-<!--COURSE START-->
-
-<h1 class="w3-center">Courses</h1>
-
-
-<div class="row" style="display: inline" >
-	<div class="column" style="display: block">
-			<p style="vertical-align: top">Sep 2022 - July 2023</p>
-		<div class="column" style="display: inline-block" >
-				<img class="image" src="/assets/images/ucsan.png" alt="Alt Text">
-			<figcaption class="caption">U.C. San Diego</figcaption>
-		</div>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/edx.png" alt="Alt Text">
-			<figcaption class="caption">edX</figcaption>
-		</div>
-	</div>
-	<div class="column" style="display: inline-block, horizontal-align: centre">
-		<h2><b>UCSanDiegoX's Data Science MicroMasters® Program</b><br></h2>
-			<p>[ Python for Data Science, Probability and Statistics in Data Science using Python, <br> 
-			Machine Learning Fundamentals, Big Data Analytics Using Spark ]</p>
-	</div>
+    <div class="course-card">
+        <div class="course-header">
+            <img src="/assets/images/coursera-logo-square.png" alt="Coursera" class="course-logo">
+            <div class="course-meta">
+                <div class="course-date">July 2019</div>
+                <h3>Machine Learning by Andrew Ng</h3>
+            </div>
+        </div>
+        <p>Stanford University Course on Machine Learning Fundamentals</p>
+        <a href="https://www.coursera.org/account/accomplishments/verify/TME8CTEUJK5E" class="certificate-link">View Certificate →</a>
+    </div>
 </div>
 
-<hr class="rounded">
+<div class="section-divider dots"></div>
 
-<div class="row" style="display: inline" >
-	<div class="column" style="display: block">
-			<p style="vertical-align: top">July 2020</p>
-		<div class="column" style="display: inline-block" >
-				<img class="image" src="/assets/images/forage.png" alt="Alt Text">
-			<figcaption class="caption">Forage</figcaption>
-		</div>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/microicon.png" alt="Alt Text">
-			<figcaption class="caption">Microsoft</figcaption>
-		</div>
-	</div>
-	<div class="column" style="display: inline-block, horizontal-align: centre">
-		<h2><b>Engineering: Undergraduate & Masters Virtual Internship Platform</b><br></h2>
-			<p>[ Through InsideSherpa. Campus to Corporate: Business Foundation Skills,<br> Work Ready Skills, Technical Engineer Skills ]</p>
-		<h2><a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf">[Certificate]</a></h2>
-	</div>
+<h1>Interests</h1>
+
+<div class="interests">
+    <div class="interest-item">Competitive Programming</div>
+    <div class="interest-item">Automobiles</div>
+    <div class="interest-item">Music and Art</div>
+    <div class="interest-item">Genetic Technologies</div>
+    <div class="interest-item">Brain Interface Technologies</div>
+    <div class="interest-item">Machine Learning</div>
 </div>
-
-<hr class="rounded">
-
-<div class="row" style="display: inline" >
-	<div class="column" style="display: block">
-			<p style="vertical-align: top">June 2020</p>
-		<div class="column" style="display: inline-block" >
-				<img class="image" src="/assets/images/default-meta-image.png" alt="Alt Text">
-			<figcaption class="caption">Udemy</figcaption>
-		</div>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/React-logo.png" alt="Alt Text">
-			<figcaption class="caption">React-Native</figcaption>
-		</div>
-	</div>
-	<div class="column" style="display: inline-block, horizontal-align: centre">
-		<h2><b>React Native The Practical Guide 2020</b><br></h2>
-		<h2><a href="https://www.udemy.com/certificate/UC-6ad58f28-3b90-4700-8831-cf06c9bd71fb/">[Certificate]</a></h2>
-	</div>
-</div>
-
-<hr class="rounded">
-
-<div class="row" style="display: inline" >
-	<div class="column" style="display: block">
-			<p style="vertical-align: top">May 2020</p>
-		<div class="column" style="display: inline-block" >
-				<img class="image" src="/assets/images/default-meta-image.png" alt="Alt Text">
-			<figcaption class="caption">Udemy</figcaption>
-		</div>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/python-670x335.png" alt="Alt Text">
-			<figcaption class="caption">Python for Data Science</figcaption>
-		</div>
-	</div>
-	<div class="column" style="display: inline-block, horizontal-align: centre">
-		<h2><b>Python for Data Science and Machine: Learning Bootcamp</b><br></h2>
-		<h2><a href="https://www.udemy.com/certificate/UC-9db54b04-7ede-4113-b8ee-278a9c4bc1c3/">[Certificate]</a></h2>
-	</div>
-</div>
-
-<hr class="rounded">
-
-<div class="row" style="display: inline" >
-	<div class="column" style="display: block">
-		<p style="vertical-align: top">May 2020</p>
-	<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/forage.png" alt="Alt Text">
-		<figcaption class="caption">Forage</figcaption>
-	</div>
-	<div class="column" style="display: inline-block" >
-		<img class="image" src="/assets/images/jpmcicon.png" alt="Alt Text">
-		<figcaption class="caption">JPMorgan Chase</figcaption>
-	</div>
-	</div>
-	<div class="column" style="display: inline-block">
-		<h2><b>Software Engineering Virtual Experience Intern.<br>Through Forage</b></h2><br>
-		<p>[ Establishing Financial Data Feeds, <br>Frontend Web Development and Data Visualization with Perspective ]<br></p>
-		<h2><a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/JP%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_n5bSz2pkkeEC3To7G_completion_certificate.pdf">[Certificate]</a></h2>
-	</div>
-</div>
-
-<hr class="rounded">
-
-<div class="row" style="display: inline" >
-	<div class="column" style="display: block">
-			<p style="vertical-align: top">July 2019</p>
-		<div class="column" style="display: inline-block" >
-				<img class="image" src="/assets/images/coursera-logo-square.png" alt="Alt Text">
-			<figcaption class="caption">Coursera</figcaption>
-		</div>
-		<div class="column" style="display: inline-block" >
-			<img class="image" src="/assets/images/stanford-university-1-UU.png" alt="Alt Text">
-			<figcaption class="caption">Stanford University</figcaption>
-		</div>
-	</div>
-	<div class="column" style="display: inline-block, horizontal-align: centre">
-		<h2><b>Machine Learning - by Andrew Ng</b><br></h2>
-		<h2><a href="https://www.coursera.org/account/accomplishments/verify/TME8CTEUJK5E">[Certificate]</a></h2>
-	</div>
-</div>
-
-<hr class="rounded">
 
 [Back to Top ↑](#top)
+
+</body>
+</html>
