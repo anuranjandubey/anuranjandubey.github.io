@@ -2,45 +2,76 @@ body, html
 	font-size: 62.5%
 
 body
-	font: 16px $fontSans
-	color: $alpha
-	background: $omega
-
-h1, h2, h3, h4
 	font-family: $fontSans
-	color: $beta
+	font-size: clamp(1.55rem, calc(1.45rem + 0.2vw), 1.8rem)
+	line-height: 1.7
+	color: $alpha
+	background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.22), transparent 45%), $omega
+	min-height: 100vh
+	background-attachment: fixed
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
 
+h1, h2, h3, h4
+	font-family: $fontSans
+	color: $zeta
+	letter-spacing: -0.04em
+	font-weight: 600
+
 h1
-	font-size: 3rem
-	letter-spacing: -1px
-	color: $beta
-	font-weight: 700
+	font-size: clamp(3.2rem, calc(2.4rem + 2vw), 5.6rem)
+	line-height: 1.05
 
 h2
-	font-size: 2.2rem
+	font-size: clamp(2.4rem, calc(2rem + 1vw), 4rem)
+	line-height: 1.15
 
 h3
-	font-size: 2rem
+	font-size: clamp(2rem, calc(1.8rem + 0.6vw), 3.2rem)
+	line-height: 1.2
 
 h4
-	font-size: 1.6rem
+	font-size: clamp(1.8rem, calc(1.7rem + 0.3vw), 2.4rem)
+	line-height: 1.3
 
 a
 	color: $delta
-	text-decoration: underline
-	font-weight: $thin-font
+	text-decoration: none
+	font-weight: 500
+	position: relative
+	transition: color 160ms ease, transform 160ms ease
+	transform-origin: left bottom
+
+	&:after
+		content: ""
+		position: absolute
+		left: 0
+		bottom: -0.3rem
+		width: 100%
+		height: 2px
+		background: linear-gradient(90deg, rgba(99, 102, 241, 0.8), rgba(129, 140, 248, 0.4))
+		border-radius: 999px
+		opacity: 0
+		transform: scaleX(0.85)
+		transition: opacity 160ms ease, transform 200ms ease
+
+	&:hover
+		color: lighten($delta, 6%)
+		transform: translateY(-1px)
+
+		&:after
+			opacity: 1
+			transform: scaleX(1)
 
 p
-	line-height: 1.7
+	line-height: 1.8
 	color: $alpha
-	font-weight: 300
-	margin-bottom: 20px
-	letter-spacing: 0.4px
+	font-weight: 350
+	margin-bottom: $space-sm
+	letter-spacing: 0.02em
 
 	@media #{$mobile}
-		letter-spacing: 0.2px
+		letter-spacing: 0.01em
 
 strong
 	font-weight: 400

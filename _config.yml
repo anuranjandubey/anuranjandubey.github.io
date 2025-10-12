@@ -1,6 +1,6 @@
 # main text of home
 title: Anuranjan Dubey
-bio: Seeking Opportunities | Passionate Software Developer and AI Enthusiast | Researcher in Computer Vision and Machine Learning | Pursuing MSCS at Arizona State University | Data Science MicroMasters.
+bio: Software Engineer II at Intuit building resilient, event-driven platforms for QuickBooks Online and shaping applied AI experiences across finance products.
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -44,7 +44,7 @@ email: anuranjandubey@outlook.com
 authors:
   anuranjandubey:
     name: Anuranjan Dubey
-    bio: Seeking Opportunities | Passionate Software Developer and AI Enthusiast | Researcher in Computer Vision and Machine Learning | Pursuing MSCS at Arizona State University | Data Science MicroMasters
+    bio: Software Engineer II at Intuit designing intelligent, event-driven systems that blend backend craftsmanship with applied AI.
     external-image: false
     picture: assets/images/profile.jpg
     twitter: AnuranjanDubey2

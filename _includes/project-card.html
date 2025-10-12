@@ -1,0 +1,24 @@
+{% assign project = include.post %}
+<article class="project-card {% if project.star %}project-card--featured{% endif %}">
+  <a class="project-card__link" href="{% if project.externalLink %}{{ project.externalLink }}{% else %}{{ site.url }}{{ project.url }}{% endif %}">
+    <div class="project-card__meta">
+      <span class="project-card__badge">{{ project.date | date: "%b %Y" }}</span>
+      {% if project.category %}
+        <span class="project-card__category">{{ project.category }}</span>
+      {% endif %}
+    </div>
+
+    <h3 class="project-card__title">{{ project.title }}</h3>
+
+    {% if project.description %}
+      <p class="project-card__description">{{ project.description }}</p>
+    {% elsif project.excerpt %}
+      <p class="project-card__description">{{ project.excerpt | strip_html | truncate: 130 }}</p>
+    {% endif %}
+
+    <div class="project-card__footer">
+      <span class="project-card__cta">View project</span>
+      <span class="project-card__icon" aria-hidden="true">→</span>
+    </div>
+  </a>
+</article>

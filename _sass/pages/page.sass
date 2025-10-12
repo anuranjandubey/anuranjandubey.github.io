@@ -1,12 +1,249 @@
 .page
-    margin-top: 125px
+    margin-top: $space-lg
+    display: grid
+    gap: $space-lg
 
     > h1
         text-align: center
         margin-bottom: 6rem
 
-.about
-    img
-        width: 50%
-        margin: 0 auto
-        display: block
+.about-hero
+    display: grid
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr)
+    gap: $space-lg
+    padding: $space-lg
+    background: $surface-gradient
+    border-radius: $radius-lg
+    border: 1px solid $surface-border
+    box-shadow: $shadow-soft
+    backdrop-filter: blur(20px)
+
+    @media #{$below}
+        grid-template-columns: 1fr
+        padding: $space-md $space-sm
+        gap: $space-md
+
+.about-hero__visual
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+
+.about-hero__orb
+    position: absolute
+    width: clamp(220px, 26vw, 360px)
+    height: clamp(220px, 26vw, 360px)
+    background: radial-gradient(circle at 30% 30%, rgba(99, 102, 241, 0.45), rgba(45, 212, 191, 0.3) 48%, rgba(15, 23, 42, 0.3) 100%)
+    filter: blur(6px)
+    border-radius: 50%
+    transform: translate(-10%, -10%) rotate(12deg)
+
+.about-hero__portrait
+    position: relative
+    width: clamp(220px, 28vw, 360px)
+    height: clamp(220px, 28vw, 360px)
+    border-radius: 40%
+    object-fit: cover
+    border: 4px solid rgba(255, 255, 255, 0.6)
+    box-shadow: 0 32px 64px rgba(15, 23, 42, 0.25)
+
+.about-hero__content
+    display: flex
+    flex-direction: column
+    gap: $space-sm
+
+.about-hero__badge
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    padding: 0.5rem 1.8rem
+    border-radius: 999px
+    background: rgba(99, 102, 241, 0.16)
+    color: $delta
+    font-weight: 600
+    font-size: 1.3rem
+    letter-spacing: 0.02em
+
+.about-hero__title
+    margin: 0
+    font-size: clamp(3.4rem, calc(3rem + 2vw), 6rem)
+    color: $zeta
+
+.about-hero__subtitle
+    margin: 0
+    font-size: clamp(1.7rem, calc(1.55rem + 0.35vw), 2.1rem)
+    color: $gama
+    max-width: 70ch
+
+.about-hero__stats
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+    gap: $space-xs
+
+.about-stat
+    background: rgba(99, 102, 241, 0.08)
+    border: 1px solid rgba(99, 102, 241, 0.18)
+    border-radius: $radius-md
+    padding: $space-xs
+    text-align: center
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12)
+
+.about-stat__value
+    display: block
+    font-size: clamp(2.6rem, calc(2.2rem + 0.8vw), 3.6rem)
+    font-weight: 700
+    color: $zeta
+
+.about-stat__label
+    font-size: 1.3rem
+    color: $gama
+
+.about-hero__actions
+    display: flex
+    flex-wrap: wrap
+    gap: $space-xs
+
+.about-highlight-grid
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+    gap: $space-sm
+
+.about-highlight
+    background: $surface
+    border-radius: $radius-lg
+    border: 1px solid $surface-border
+    padding: $space-sm
+    box-shadow: $shadow-soft
+    transition: transform 200ms ease, box-shadow 200ms ease
+
+    &:hover
+        transform: translateY(-4px)
+        box-shadow: $shadow-strong
+
+.about-highlight__title
+    margin-top: 0
+    margin-bottom: 0.8rem
+    color: $zeta
+
+.about-section
+    display: grid
+    gap: $space-sm
+
+.about-section__header
+    display: flex
+    flex-direction: column
+    gap: 0.6rem
+
+.about-section__kicker
+    text-transform: uppercase
+    font-size: 1.2rem
+    letter-spacing: 0.4em
+    color: rgba(99, 102, 241, 0.7)
+    font-weight: 600
+
+.about-section__title
+    margin: 0
+    color: $zeta
+
+.about-timeline
+    display: grid
+    gap: $space-sm
+
+.about-grid
+    display: grid
+    gap: $space-sm
+
+.about-grid--columns
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))
+
+.about-card
+    background: $surface
+    border-radius: $radius-lg
+    border: 1px solid $surface-border
+    padding: $space-sm
+    box-shadow: $shadow-soft
+    display: grid
+    gap: $space-xs
+    transition: transform 200ms ease, box-shadow 200ms ease
+
+    &:hover
+        transform: translateY(-4px)
+        box-shadow: $shadow-strong
+
+.about-card--compact
+    gap: 0.8rem
+
+.about-card--course
+    gap: $space-xs
+
+.about-card__header
+    display: flex
+    align-items: center
+    gap: $space-xs
+
+.about-card__logo
+    width: 64px
+    height: 64px
+    object-fit: contain
+    border-radius: 16px
+    background: rgba(15, 23, 42, 0.06)
+    padding: 0.6rem
+
+.about-card__title
+    margin: 0
+    color: $zeta
+
+.about-card__meta
+    margin: 0
+    color: $gama
+    font-size: 1.35rem
+
+.about-card__summary
+    margin: 0
+    color: $gama
+
+.about-card__details
+    margin: 0
+    padding-left: 1.6rem
+    display: grid
+    gap: 0.6rem
+    color: $gama
+
+    > li
+        font-size: 1.35rem
+        line-height: 1.6
+
+.about-card__tags
+    display: flex
+    flex-wrap: wrap
+    gap: 0.6rem
+
+.about-card__link
+    display: inline-flex
+    align-items: center
+    gap: 0.6rem
+    padding: 0.6rem 1.2rem
+    border-radius: $radius-sm
+    background: rgba(99, 102, 241, 0.08)
+    color: $delta
+    font-weight: 600
+    text-decoration: none
+
+    &:hover
+        background: rgba(99, 102, 241, 0.12)
+
+.about-chip
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    padding: 0.4rem 1.2rem
+    border-radius: 999px
+    background: rgba(99, 102, 241, 0.16)
+    color: $delta
+    font-weight: 600
+    font-size: 1.2rem
+
+.about-interests
+    display: flex
+    flex-wrap: wrap
+    gap: 0.6rem

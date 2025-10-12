@@ -1,34 +1,97 @@
-.header-home
-    display: block
-    margin: 0 auto
-    text-align: center
-    position: relative
-    z-index: 99
+.hero-shell
+	position: relative
+	margin-top: calc($space-lg + 20px)
+	padding: $space-lg
+	background: $surface-gradient
+	border-radius: $radius-lg
+	border: 1px solid $surface-border
+	box-shadow: $shadow-soft
+	backdrop-filter: blur(20px)
+	display: grid
+	grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr)
+	gap: $space-lg
+	align-items: center
+	overflow: hidden
 
-    > .link > .selfie
-        width: 125px
-        height: 125px
-        margin-bottom: 25px
-        border-radius: 100%
-        transition: all .2s
-        opacity: 1
+	@media #{$below}
+		grid-template-columns: 1fr
+		gap: $space-md
+		padding: $space-lg $space-sm
 
-        &:hover
-            box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15)
-            opacity: .8
+.hero-content
+	z-index: 2
+	display: flex
+	flex-direction: column
+	gap: $space-sm
 
-    > .title
-        font-size: 4rem
-        margin: 0 0 13px
+.hero-eyebrow
+	font-size: clamp(1.4rem, calc(1.2rem + 0.3vw), 1.65rem)
+	text-transform: uppercase
+	letter-spacing: 0.45em
+	color: rgba(99, 102, 241, 0.7)
+	font-weight: 600
 
-    > .description
-        font-size: 1.85rem
-        font-weight: $thin-font
-        font-style: normal
-        color: $gama
-        width: 70%
-        margin: 0 auto 30px
+.hero-title
+	font-size: clamp(4rem, calc(3.2rem + 3vw), 7.2rem)
+	color: $zeta
+	margin: 0
 
-        // if you put some links in your bio. ;)
-        a
-            font-weight: 200
+.hero-subtitle
+	font-size: clamp(1.6rem, calc(1.5rem + 0.3vw), 2rem)
+	max-width: 56ch
+	color: $gama
+	margin: 0
+
+.hero-actions
+	display: flex
+	flex-wrap: wrap
+	gap: $space-xs
+	margin-top: $space-sm
+
+.hero-social
+	display: flex
+	align-items: center
+
+.hero-social .social-links
+	> .link
+		color: $zeta
+
+.hero-visual
+	position: relative
+	display: flex
+	align-items: center
+	justify-content: center
+	z-index: 1
+
+.hero-orb
+	position: absolute
+	width: clamp(220px, 26vw, 360px)
+	height: clamp(220px, 26vw, 360px)
+	background: radial-gradient(circle at 30% 30%, rgba(99, 102, 241, 0.55), rgba(45, 212, 191, 0.32) 45%, rgba(15, 23, 42, 0.28) 100%)
+	filter: blur(4px)
+	border-radius: 50%
+	transform: translate(-10%, -6%) rotate(8deg)
+	opacity: 0.9
+
+.hero-avatar-wrap
+	position: relative
+	width: clamp(220px, 26vw, 340px)
+	height: clamp(220px, 26vw, 340px)
+	padding: 1.4rem
+	border-radius: 42%
+	background: rgba(15, 23, 42, 0.35)
+	backdrop-filter: blur(14px)
+	border: 1px solid rgba(255, 255, 255, 0.18)
+	box-shadow: $shadow-strong
+	transform: rotate(-6deg)
+
+	@media #{$below}
+		transform: rotate(0deg)
+
+.hero-avatar
+	width: 100%
+	height: 100%
+	object-fit: cover
+	border-radius: 38%
+	border: 3px solid rgba(255, 255, 255, 0.6)
+	box-shadow: inset 0 0 24px rgba(255, 255, 255, 0.18)

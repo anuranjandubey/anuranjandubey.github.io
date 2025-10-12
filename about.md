@@ -3,564 +3,278 @@ title: About
 layout: page
 ---
 
-<html>
-<head>
-    <style>
-        :root {
-            /* Color variables for dark mode */
-            --indigo-50: #1c1b29;
-            --indigo-100: #25233d;
-            --indigo-200: #373352;
-            --indigo-300: #4a4770;
-            --indigo-400: #5e5c8e;
-            --indigo-500: #7472aa;
-            --indigo-600: #908bc0;
-            --indigo-700: #b2a4db;
-            --indigo-800: #cec3f1;
-            --indigo-900: #e8e3ff;
-
-            --text-color: #e0e0e0;
-            --background-color: #121212;
-            --card-background: #1f1f1f;
-            --highlight-background: #282828;
-            --border-color: #3a3a3a;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: var(--background-color);
-        }
-
-        /* Hero section */
-        .hero {
-            text-align: center;
-            margin-bottom: 4rem;
-            padding: 2rem;
-            background: var(--card-background);
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-            border: 1px solid var(--border-color);
-        }
-
-        .hero img {
-            border-radius: 50%;
-            max-width: 200px;
-            margin: 0 auto 1.5rem;
-            display: block;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
-            border: 3px solid var(--indigo-200);
-        }
-
-        /* Section styling */
-        h1 {
-            color: var(--indigo-900);
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 3px solid var(--indigo-500);
-            padding-bottom: 0.5rem;
-        }
-
-        h2 {
-            color: var(--indigo-700);
-            font-size: 1.8rem;
-            margin-top: 2.5rem;
-        }
-
-        h3 {
-            color: var(--indigo-600);
-            font-size: 1.4rem;
-            margin-top: 0;
-        }
-
-        /* Experience cards */
-        .experience-card {
-            background: var(--card-background);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            border: 1px solid var(--border-color);
-            transition: transform 0.2s ease;
-            display: flex;
-            align-items: flex-start;
-            gap: 1.5rem;
-        }
-
-        .experience-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-        }
-
-        .company-logo {
-            width: 80px;
-            height: 80px;
-            object-fit: contain;
-            margin-top: 0.5rem;
-        }
-
-        .experience-content {
-            flex: 1;
-        }
-
-        /* Skills grid */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-
-        .skill-category {
-            background: var(--card-background);
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            border: 1px solid var(--border-color);
-        }
-
-        /* Badge styling */
-        .badge {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background-color: var(--indigo-200);
-            color: var(--indigo-900);
-            border-radius: 9999px;
-            font-size: 0.875rem;
-            margin: 0.25rem;
-        }
-
-        /* Education cards */
-        .education-card {
-            background: var(--card-background);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            border: 1px solid var(--border-color);
-            border-left: 4px solid var(--indigo-500);
-            transition: transform 0.2s ease;
-        }
-
-        .education-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-        }
-
-        .education-meta {
-            color: var(--indigo-600);
-            font-size: 0.9rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .gpa {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background-color: var(--indigo-200);
-            color: var(--indigo-900);
-            border-radius: 9999px;
-            font-size: 0.875rem;
-            margin: 0.5rem 0;
-        }
-
-        /* Interests section */
-        .interests {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        .interest-item {
-            background: var(--card-background);
-            padding: 1rem;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            border: 1px solid var(--border-color);
-            transition: transform 0.2s ease;
-        }
-
-        .interest-item:hover {
-            transform: translateY(-2px);
-            background-color: var(--highlight-background);
-        }
-
-        /* Highlight boxes */
-        .highlight {
-            background: var(--highlight-background);
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            border-left: 4px solid var(--indigo-500);
-        }
-
-        /* Links styling */
-        a {
-            color: var(--indigo-600);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        a:hover {
-            color: var(--indigo-400);
-            text-decoration: underline;
-        }
-
-        .certificate-link {
-            display: inline-flex;
-            align-items: center;
-            padding: 0.5rem 1rem;
-            background-color: var(--highlight-background);
-            color: var(--indigo-900);
-            border-radius: 6px;
-            margin-top: 1rem;
-            transition: background-color 0.2s ease;
-        }
-
-        .certificate-link:hover {
-            background-color: var(--indigo-100);
-            text-decoration: none;
-        }
-
-        .course-logo {
-        width: 80px;   /* Reduced from 60px */
-        height: 80px;  /* Reduced from 60px */
-        object-fit: contain; /* Maintains aspect ratio */
-        }
-
-        .course-header {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;  /* Reduced spacing between logo and text */
-        }
-
-        img[src*="ucsan"], 
-        img[src*="microicon"],
-        img[src*="coursera"],
-        img[src*="React-logo"],
-        img[src*="forage"],
-        img[src*="edx"] {
-            width: 80px;
-            height: 80px;
-            object-fit: contain;
-        }
-        
-        @media (max-width: 768px) {
-        .course-logo {
-            width: 80px;
-            height: 80px;
-        }
-        }
-
-        .section-divider {
-        height: 1px;
-        background: linear-gradient(
-            to right,
-            var(--border-dark),
-            var(--indigo-400),
-            var(--border-dark)
-        );
-        margin: 3rem 0;
-        position: relative;
-    }
-
-    /* Fancy separator with icon or dot */
-    .section-divider.fancy {
-        height: 1px;
-        background: linear-gradient(
-            to right,
-            var(--border-dark),
-            var(--indigo-400),
-            var(--border-dark)
-        );
-        margin: 3rem 0;
-        position: relative;
-    }
-
-    .section-divider.fancy::before {
-        content: "•";
-        color: var(--indigo-400);
-        background-color: var(--bg-dark);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 0 1rem;
-        font-size: 1.5rem;
-    }
-
-    /* Alternative separator with multiple dots */
-    .section-divider.dots {
-        height: 1px;
-        background: var(--border-dark);
-        margin: 3rem 0;
-        position: relative;
-        text-align: center;
-    }
-
-    .section-divider.dots::before {
-        content: "• • •";
-        color: var(--indigo-400);
-        background-color: var(--bg-dark);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 0 1rem;
-        letter-spacing: 0.5rem;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-        .section-divider {
-            margin: 2rem 0;
-        }
-    }
-    </style>
-</head>
-<body>
-
-# About Me
-
-<div class="hero">
-    <img src="/assets/images/profilefull.jpeg" alt="Profile Picture">
-    <h1>I'm Always Up to Learn New Things</h1>
-    <p class="highlight">Software Developer | Machine Learning Enthusiast | Graduate Student at ASU</p>
-</div>
-
-<div class="highlight">
-I'm a software developer pursuing my Master's in Computer Science at Arizona State University. Throughout my academic journey, I've worked with cutting-edge technologies including AWS, Git, MSSQL, Apache Kafka, MongoDB, and OpenCV. My passion lies in creating innovative solutions and exploring the frontiers of technology.
-</div>
-
-<div class="highlight">
-I worked on a research paper on classifying defects in glass bangles, published at CVIP 2022 Conference and featured in Springer's CCIS Series. This project combined traditional feature-based approaches with deep learning techniques, showcasing my ability to bridge classical and modern methodologies.
-</div>
-
-<div class="highlight">
-I've recently embarked on a fitness journey, recognizing that a healthy body and mind pave the way for success. Beyond coding, I'm an enthusiast of food, coffee, and a budding bibliophile. A recent read, "Atomic Habits" by James Clear, has significantly impacted my daily productivity.
-</div>
-
-<div class="section-divider"></div>
-
-<h1>Work Experience</h1>
-
-<div class="experience-card">
-    <img class="company-logo" src="/assets/images/intuit.png" alt="Intuit Logo">
-    <div class="experience-content">
-        <h3>Intuit</h3>
-        <p><strong>Software Engineering Intern</strong></p>
-        <p class="education-meta">May 2024 - Aug 2024</p>
-    </div>
-</div>
-
-<div class="experience-card">
-    <img class="company-logo" src="/assets/images/genpacticon.png" alt="Genpact Logo">
-    <div class="experience-content">
-        <h3>Genpact</h3>
-        <p><strong>Senior Associate (Data Engineering)</strong></p>
-        <p class="education-meta">June 2021 - May 2023</p>
-    </div>
-</div>
-
-<div class="experience-card">
-    <img class="company-logo" src="/assets/images/filedicon.png" alt="Filed Logo">
-    <div class="experience-content">
-        <h3>Filed</h3>
-        <p><strong>Software Developer</strong></p>
-        <p class="education-meta">April 2021 - June 2021</p>
-        <p>Delivered 3 Integration for Ecommerce platforms for Product Catalogue Import.</p>
-    </div>
-</div>
-
-<div class="experience-card">
-    <img class="company-logo" src="/assets/images/tsficon.png" alt="The Sparks Foundation Logo">
-    <div class="experience-content">
-        <h3>The Sparks Foundation</h3>
-        <p><strong>Data Analyst (GRIP)</strong></p>
-        <p class="education-meta">August 2020</p>
-        <p>Worked on a Data Analysis Project using seaborn and matplotlib.</p>
-    </div>
-</div>
-
-
-<div class="section-divider dots"></div>
-
-<h1>Education</h1>
-
-<div class="education-card">
-    <h3>Arizona State University</h3>
-    <div class="education-meta">Aug 2023 - Aug 2025</div>
-    <p><strong>Master of Science in Computer Science</strong></p>
-    <div class="gpa">GPA: 4.22/4</div>
-</div>
-
-<div class="education-card">
-    <h3>Jaypee Institute of Information Technology</h3>
-    <div class="education-meta">July 2017 - July 2021</div>
-    <p><strong>Bachelor of Technology, Computer Science and Engineering</strong></p>
-    <div class="gpa">GPA: 7.3/10</div>
-    <p><strong>Activities:</strong> Table Tennis Captain</p>
-</div>
-
-<div class="education-card">
-    <h3>Kendriya Vidyalaya, Aligarh</h3>
-    <div class="education-meta">May 2015 - May 2016</div>
-    <p><strong>Intermediate (12th)</strong></p>
-    <p>Science Stream with 80% Overall</p>
-    <p>Second Topper, Highest Marks in Computer Science and Chemistry</p>
-    <p><strong>Activities:</strong> School Captain, House Captain</p>
-</div>
-
-<div class="education-card">
-    <h3>Kendriya Vidyalaya, Aligarh</h3>
-    <div class="education-meta">May 2013 - May 2014</div>
-    <p><strong>High School (10th)</strong></p>
-    <div class="gpa">CGPA: 10/10</div>
-    <p>All India Topper with Merit Certificate in All Subjects</p>
-</div>
-
-
-
-<div class="section-divider dots"></div>
-<h1>Technical Knowledge</h1>
-
-<div class="skills-container">
-    <div class="skills-section">
-        <h3>Applications & Platforms</h3>
-        <div class="skills-badges">
-            <span class="badge">Docker</span>
-            <span class="badge">POSTMAN</span>
-            <span class="badge">GraphQL</span>
-            <span class="badge">Fast-API</span>
-            <span class="badge">AWS (EC2)</span>
-            <span class="badge">Git</span>
-            <span class="badge">MSSQL</span>
-            <span class="badge">CyberArk</span>
-        </div>
-    </div>
-
-    <div class="skills-section">
-        <h3>Languages</h3>
-        <div class="skills-badges">
-            <span class="badge">Python</span>
-            <span class="badge">C/C++</span>
-            <span class="badge">JavaScript</span>
-            <span class="badge">SQL</span>
-            <span class="badge">PL/SQL</span>
-            <span class="badge">HTML</span>
-            <span class="badge">LaTeX</span>
-            <span class="badge">Assembly</span>
-        </div>
-    </div>
-
-    <div class="skills-section">
-        <h3>Machine Learning</h3>
-        <div class="skills-badges">
-            <span class="badge">NLP</span>
-            <span class="badge">OpenCV</span>
-            <span class="badge">Image Processing</span>
-            <span class="badge">TensorFlow</span>
-            <span class="badge">Regex</span>
-            <span class="badge">Classification</span>
-            <span class="badge">Regression</span>
-        </div>
-    </div>
-
-    <div class="skills-section">
-        <h3>Web & App Development</h3>
-        <div class="skills-badges">
-            <span class="badge">HTML</span>
-            <span class="badge">CSS</span>
-            <span class="badge">JavaScript</span>
-            <span class="badge">PHP</span>
-            <span class="badge">React-Native</span>
-            <span class="badge">Flutter</span>
-        </div>
-    </div>
-
-    <div class="skills-section">
-        <h3>Operating Systems</h3>
-        <div class="skills-badges">
-            <span class="badge">Mac-OSX</span>
-            <span class="badge">Linux</span>
-            <span class="badge">Windows</span>
-            <span class="badge">Android</span>
-        </div>
-    </div>
-</div>
-
-<div class="section-divider dots"></div>
-
-<h1>Courses and Certifications</h1>
-
-<div class="course-grid">
-    <div class="course-card">
-        <div class="course-header">
-            <img src="/assets/images/ucsan.png" alt="UC San Diego" class="course-logo">
-            <div class="course-meta">
-                <div class="course-date">Sep 2022 - July 2023</div>
-                <h3>Data Science MicroMasters® Program</h3>
-            </div>
-        </div>
-        <p>Python for Data Science, Probability and Statistics, Machine Learning Fundamentals, Big Data Analytics Using Spark</p>
-    </div>
-
-    <div class="course-card">
-        <div class="course-header">
-            <img src="/assets/images/microicon.png" alt="Microsoft" class="course-logo">
-            <div class="course-meta">
-                <div class="course-date">July 2020</div>
-                <h3>Engineering Virtual Internship</h3>
-            </div>
-        </div>
-        <p>Business Foundation Skills, Work Ready Skills, Technical Engineer Skills</p>
-        <a href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf" class="certificate-link">View Certificate →</a>
-    </div>
-
-    <div class="course-card">
-        <div class="course-header">
-            <img src="/assets/images/React-logo.png" alt="React" class="course-logo">
-            <div class="course-meta">
-                <div class="course-date">June 2020</div>
-                <h3>React Native The Practical Guide</h3>
-            </div>
-        </div>
-        <p>Comprehensive course on React Native development</p>
-        <a href="https://www.udemy.com/certificate/UC-6ad58f28-3b90-4700-8831-cf06c9bd71fb/" class="certificate-link">View Certificate →</a>
-    </div>
-
-    <div class="course-card">
-        <div class="course-header">
-            <img src="/assets/images/coursera-logo-square.png" alt="Coursera" class="course-logo">
-            <div class="course-meta">
-                <div class="course-date">July 2019</div>
-                <h3>Machine Learning by Andrew Ng</h3>
-            </div>
-        </div>
-        <p>Stanford University Course on Machine Learning Fundamentals</p>
-        <a href="https://www.coursera.org/account/accomplishments/verify/TME8CTEUJK5E" class="certificate-link">View Certificate →</a>
-    </div>
-</div>
-
-<div class="section-divider dots"></div>
-
-<h1>Interests</h1>
-
-<div class="interests">
-    <div class="interest-item">Competitive Programming</div>
-    <div class="interest-item">Automobiles</div>
-    <div class="interest-item">Music and Art</div>
-    <div class="interest-item">Genetic Technologies</div>
-    <div class="interest-item">Brain Interface Technologies</div>
-    <div class="interest-item">Machine Learning</div>
-</div>
-
-[Back to Top ↑](#top)
-
-</body>
-</html>
+<section class="about-hero">
+	<div class="about-hero__visual">
+		<div class="about-hero__orb"></div>
+		<img class="about-hero__portrait" src="/assets/images/profilefull.jpeg" alt="Portrait of Anuranjan Dubey">
+	</div>
+
+	<div class="about-hero__content">
+		<span class="about-hero__badge">Software Developer · Machine Learning Enthusiast</span>
+		<h1 class="about-hero__title">I'm Always Up to Learn New Things</h1>
+		<p class="about-hero__subtitle">I’m a Software Engineer II at Intuit, where I design and build resilient, event-driven systems that power QuickBooks Online. I completed my M.S. in Computer Science at Arizona State University, specializing in AI and distributed systems. My work bridges intelligent automation with large-scale software design—bringing together my passion for backend engineering and the evolving world of applied AI.</p>
+
+		<div class="about-hero__stats">
+			<div class="about-stat">
+				<span class="about-stat__value">6+</span>
+				<span class="about-stat__label">Years shipping software</span>
+			</div>
+			<div class="about-stat">
+				<span class="about-stat__value">4.22</span>
+				<span class="about-stat__label">MSCS GPA</span>
+			</div>
+			<div class="about-stat">
+				<span class="about-stat__value">1</span>
+				<span class="about-stat__label">Peer-reviewed publication</span>
+			</div>
+		</div>
+
+		<div class="about-hero__actions">
+			<a class="btn-primary" href="{{ site.url }}/projects">Explore projects</a>
+			<a class="btn-secondary" href="mailto:{{ site.email }}">Let’s collaborate</a>
+		</div>
+	</div>
+</section>
+
+<section class="about-highlight-grid">
+	<article class="about-highlight">
+		<h2 class="about-highlight__title">Applied learning, real outcomes</h2>
+		<p>I’m energized by building systems that matter—recent work spans AWS-backed data engineering, production APIs, and immersive mobile experiences that help people get things done.</p>
+	</article>
+	<article class="about-highlight">
+		<h2 class="about-highlight__title">Research-backed builder</h2>
+		<p>My CVIP 2022 paper on glass-bangle defect detection blended classical computer vision with deep learning, highlighting my ability to translate research into practical solutions.</p>
+	</article>
+	<article class="about-highlight">
+		<h2 class="about-highlight__title">Curious beyond the screen</h2>
+		<p>Strength training, specialty coffee, and page-turners like <em>Atomic Habits</em> keep me grounded—because sharp products start with a sharp mind.</p>
+	</article>
+</section>
+
+<section class="about-section">
+	<div class="about-section__header">
+		<span class="about-section__kicker">Experience</span>
+		<h2 class="about-section__title">Delivering impact across teams</h2>
+	</div>
+	<div class="about-timeline">
+		<article class="about-card">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/intuit.png" alt="Intuit logo">
+				<div>
+					<h3 class="about-card__title">Software Engineer 2</h3>
+					<p class="about-card__meta">Intuit · Full-time · May 2025 – Present · Mountain View, CA</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Designing resilient, event-driven services for QuickBooks Online while leading cross-functional initiatives that unlock measurable customer and revenue growth.</p>
+		</article>
+		<article class="about-card">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/intuit.png" alt="Intuit logo">
+				<div>
+					<h3 class="about-card__title">Software Engineer Intern</h3>
+					<p class="about-card__meta">Intuit · May 2024 – Aug 2024 · Mountain View, CA</p>
+				</div>
+			</header>
+			<ul class="about-card__details">
+				<li>Integrated a QuickBooks Online data pipeline using an event-driven architecture and the outbox pattern across DynamoDB and Apache Kafka.</li>
+				<li>Implemented end-to-end observability with Wavefront and Splunk to monitor Java and Spring Boot services deployed on AWS.</li>
+				<li>Contributed to an $80M annual opportunity initiative, estimated to unlock $10M incremental impact while boosting user growth by 80%.</li>
+			</ul>
+		</article>
+		<article class="about-card">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/genpacticon.png" alt="Genpact logo">
+				<div>
+					<h3 class="about-card__title">Senior Associate · Data Engineering</h3>
+					<p class="about-card__meta">Genpact · Jun 2021 – May 2023</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Supported enterprise clients with secure, high-volume pipelines across Kafka, MSSQL, and cloud-native services.</p>
+		</article>
+		<article class="about-card">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/filedicon.png" alt="Filed logo">
+				<div>
+					<h3 class="about-card__title">Software Developer</h3>
+					<p class="about-card__meta">Filed · Apr 2021 – Jun 2021</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Delivered three e-commerce integrations to automate catalog ingestion and streamline product onboarding.</p>
+		</article>
+		<article class="about-card">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/tsficon.png" alt="The Sparks Foundation logo">
+				<div>
+					<h3 class="about-card__title">Data Analyst · GRIP</h3>
+					<p class="about-card__meta">The Sparks Foundation · Aug 2020</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Explored insights with Python, seaborn, and matplotlib to communicate stories hidden inside data.</p>
+		</article>
+	</div>
+</section>
+
+<section class="about-section">
+	<div class="about-section__header">
+		<span class="about-section__kicker">Education</span>
+		<h2 class="about-section__title">Crafting a strong academic foundation</h2>
+	</div>
+	<div class="about-grid">
+		<article class="about-card about-card--compact">
+			<h3 class="about-card__title">Arizona State University</h3>
+			<p class="about-card__meta">MS Computer Science · Aug 2023 – Aug 2025</p>
+			<span class="about-chip">GPA 4.22 / 4</span>
+		</article>
+		<article class="about-card about-card--compact">
+			<h3 class="about-card__title">Jaypee Institute of Information Technology</h3>
+			<p class="about-card__meta">B.Tech Computer Science · Jul 2017 – Jul 2021</p>
+			<span class="about-chip">GPA 7.3 / 10</span>
+			<p class="about-card__summary">Led the table tennis team while balancing a rigorous engineering curriculum.</p>
+		</article>
+		<article class="about-card about-card--compact">
+			<h3 class="about-card__title">Kendriya Vidyalaya, Aligarh</h3>
+			<p class="about-card__meta">Intermediate (Class XII) · May 2015 – May 2016</p>
+			<p class="about-card__summary">Science specialization with top scores in Computer Science and Chemistry; served as School and House Captain.</p>
+		</article>
+		<article class="about-card about-card--compact">
+			<h3 class="about-card__title">Kendriya Vidyalaya, Aligarh</h3>
+			<p class="about-card__meta">High School (Class X) · May 2013 – May 2014</p>
+			<span class="about-chip">CGPA 10 / 10</span>
+			<p class="about-card__summary">All-India topper recognized with merit certificates across every subject.</p>
+		</article>
+	</div>
+</section>
+
+<section class="about-section">
+	<div class="about-section__header">
+		<span class="about-section__kicker">Skills</span>
+		<h2 class="about-section__title">Tools I reach for often</h2>
+	</div>
+	<div class="about-grid about-grid--columns">
+		<article class="about-card">
+			<h3 class="about-card__title">Applications & Platforms</h3>
+			<div class="about-card__tags">
+				<span class="about-chip">Docker</span>
+				<span class="about-chip">Postman</span>
+				<span class="about-chip">GraphQL</span>
+				<span class="about-chip">FastAPI</span>
+				<span class="about-chip">AWS (EC2)</span>
+				<span class="about-chip">Git</span>
+				<span class="about-chip">MSSQL</span>
+				<span class="about-chip">CyberArk</span>
+			</div>
+		</article>
+		<article class="about-card">
+			<h3 class="about-card__title">Languages</h3>
+			<div class="about-card__tags">
+				<span class="about-chip">Python</span>
+				<span class="about-chip">C / C++</span>
+				<span class="about-chip">JavaScript</span>
+				<span class="about-chip">SQL</span>
+				<span class="about-chip">PL/SQL</span>
+				<span class="about-chip">HTML</span>
+				<span class="about-chip">LaTeX</span>
+				<span class="about-chip">Assembly</span>
+			</div>
+		</article>
+		<article class="about-card">
+			<h3 class="about-card__title">Machine Learning</h3>
+			<div class="about-card__tags">
+				<span class="about-chip">NLP</span>
+				<span class="about-chip">OpenCV</span>
+				<span class="about-chip">Image Processing</span>
+				<span class="about-chip">TensorFlow</span>
+				<span class="about-chip">Regex</span>
+				<span class="about-chip">Classification</span>
+				<span class="about-chip">Regression</span>
+			</div>
+		</article>
+		<article class="about-card">
+			<h3 class="about-card__title">Web & App Development</h3>
+			<div class="about-card__tags">
+				<span class="about-chip">HTML</span>
+				<span class="about-chip">CSS</span>
+				<span class="about-chip">JavaScript</span>
+				<span class="about-chip">PHP</span>
+				<span class="about-chip">React Native</span>
+				<span class="about-chip">Flutter</span>
+			</div>
+		</article>
+		<article class="about-card">
+			<h3 class="about-card__title">Operating Systems</h3>
+			<div class="about-card__tags">
+				<span class="about-chip">macOS</span>
+				<span class="about-chip">Linux</span>
+				<span class="about-chip">Windows</span>
+				<span class="about-chip">Android</span>
+			</div>
+		</article>
+	</div>
+</section>
+
+<section class="about-section">
+	<div class="about-section__header">
+		<span class="about-section__kicker">Courses & Certifications</span>
+		<h2 class="about-section__title">Learning that keeps me ahead</h2>
+	</div>
+	<div class="about-grid about-grid--columns">
+		<article class="about-card about-card--course">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/ucsan.png" alt="UC San Diego logo">
+				<div>
+					<h3 class="about-card__title">Data Science MicroMasters® Program</h3>
+					<p class="about-card__meta">UC San Diego · Sep 2022 – Jul 2023</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Python for Data Science, Probability & Statistics, Machine Learning Fundamentals, Big Data Analytics with Spark.</p>
+		</article>
+		<article class="about-card about-card--course">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/microicon.png" alt="Microsoft logo">
+				<div>
+					<h3 class="about-card__title">Engineering Virtual Internship</h3>
+					<p class="about-card__meta">Microsoft · Jul 2020</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Developed business, workplace, and technical engineering skills through Microsoft’s InsideSherpa program.</p>
+			<a class="about-card__link" href="https://insidesherpa.s3.amazonaws.com/completion-certificates/Microsoft/ms2CK9b2SCWGXwPMS_Microsoft_sbFYPrpDyhAkFiFii_completion_certificate.pdf" target="_blank" rel="noopener">View certificate</a>
+		</article>
+		<article class="about-card about-card--course">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/React-logo.png" alt="React logo">
+				<div>
+					<h3 class="about-card__title">React Native — The Practical Guide</h3>
+					<p class="about-card__meta">Udemy · Jun 2020</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Hands-on mobile development training focused on performant cross-platform apps.</p>
+			<a class="about-card__link" href="https://www.udemy.com/certificate/UC-6ad58f28-3b90-4700-8831-cf06c9bd71fb/" target="_blank" rel="noopener">View certificate</a>
+		</article>
+		<article class="about-card about-card--course">
+			<header class="about-card__header">
+				<img class="about-card__logo" src="/assets/images/coursera-logo-square.png" alt="Coursera logo">
+				<div>
+					<h3 class="about-card__title">Machine Learning by Andrew Ng</h3>
+					<p class="about-card__meta">Stanford · Jul 2019</p>
+				</div>
+			</header>
+			<p class="about-card__summary">Comprehensive foundation in supervised learning, recommendation, and optimization techniques.</p>
+			<a class="about-card__link" href="https://www.coursera.org/account/accomplishments/verify/TME8CTEUJK5E" target="_blank" rel="noopener">View certificate</a>
+		</article>
+	</div>
+</section>
+
+<section class="about-section">
+	<div class="about-section__header">
+		<span class="about-section__kicker">Interests</span>
+		<h2 class="about-section__title">What keeps my curiosity alive</h2>
+	</div>
+	<div class="about-interests">
+		<span class="about-chip">Competitive programming</span>
+		<span class="about-chip">Automobiles</span>
+		<span class="about-chip">Music & art</span>
+		<span class="about-chip">Genetic technologies</span>
+		<span class="about-chip">Brain-computer interfaces</span>
+		<span class="about-chip">Machine learning</span>
+	</div>
+</section>

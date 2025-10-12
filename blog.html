@@ -6,26 +6,33 @@ title: Blog
 pagination:
   enabled: true
 ---
-<section class="list">
-	{% if site.posts.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.pagination.enabled %}
-		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
+{% capture intro_copy %}
+Consistent notes from the trenches—covering architecture choices, machine learning experiments, and lessons from production launches.
+{% endcapture %}
 
-		{% include pagination.html%}
-	{% else %}
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
+<section class="content-intro">
+  <h1>Insights & Notes</h1>
+  <p>{{ intro_copy | strip }}</p>
 </section>
+
+{% if site.pagination.enabled %}
+  {% assign scoped_posts = paginator.posts | where: "category", "blog" %}
+{% else %}
+  {% assign scoped_posts = site.posts | where: "category", "blog" %}
+{% endif %}
+
+<section class="card-grid card-grid--blog">
+  {% if scoped_posts.size == 0 %}
+    <p class="card-grid__empty">Nothing published yet.</p>
+  {% else %}
+    {% for post in scoped_posts %}
+      {% if post.hidden != true %}
+        {% include blog-post.html %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</section>
+
+{% if site.pagination.enabled and scoped_posts.size > 0 %}
+  {% include pagination.html %}
+{% endif %}

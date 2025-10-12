@@ -1,53 +1,30 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
-    <ul class="list">
-        {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
-            </li>
-        {% endif %}
+<nav class="nav-shell">
+    <div class="nav-inner">
+        <a class="nav-brand" href="{{ site.url }}/">{{ site.title }}</a>
 
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
-                </li>
-            {% endif %}
-        {% endif %}
+        <div class="nav-links">
+            <a class="nav-link{% if page.title == "Home" %} is-active{% endif %}" href="{{ site.url }}/"{% if page.title == "Home" %} aria-current="page"{% endif %}>Home</a>
 
-        {% if site.projects == true %}
-            {% if page.title != "Projects" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
-                </li>
+            {% if site.blog == true %}
+                <a class="nav-link{% if page.title == "Blog" %} is-active{% endif %}" href="{{ site.url }}/blog"{% if page.title == "Blog" %} aria-current="page"{% endif %}>Blog</a>
             {% endif %}
-        {% endif %}
 
-        {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
-                </li>
+            {% if site.projects == true %}
+                <a class="nav-link{% if page.title == "Projects" %} is-active{% endif %}" href="{{ site.url }}/projects"{% if page.title == "Projects" %} aria-current="page"{% endif %}>Projects</a>
             {% endif %}
-        {% endif %}
+
+            {% if site.about == true %}
+                <a class="nav-link{% if page.title == "About" %} is-active{% endif %}" href="{{ site.url }}/about"{% if page.title == "About" %} aria-current="page"{% endif %}>About</a>
+            {% endif %}
+
+            {% if site.about == true %}
+                <a class="nav-link{% if page.title == "Honored" %} is-active{% endif %}" href="{{ site.url }}/Honored"{% if page.title == "Honored" %} aria-current="page"{% endif %}>Honored</a>
+            {% endif %}
+
+        </div>
 
         {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/Resume">Résumé</a>
-            </li>
+            <a class="nav-cta" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}{{ site.resume-url }}{% endif %}"{% if site.resume-external %} target="_blank" rel="noopener"{% endif %}>Résumé</a>
         {% endif %}
-
-        {% if page.title == "About" %}
-            <li class="item">
-                <a class="link" href="#course">Courses</a>
-            </li>
-        {% endif %}
-
-        {% if site.about == true %}
-            {% if page.title != "Honored" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/Honored">Honored</a>
-            </li>
-            {% endif %}
-        {% endif %}
-    </ul>
+    </div>
 </nav>

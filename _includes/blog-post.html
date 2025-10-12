@@ -1,6 +1,27 @@
-<div class="item {% if post.star %}star{% endif %}">
-    <a class="url" href="{{ site.url }}{{ post.url }}">
-        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-        <h3 class="title">{{ post.title }}</h3>
+<article class="post-card {% if post.star %}post-card--featured{% endif %}">
+    <a class="post-card__link" href="{{ site.url }}{{ post.url }}">
+        <div class="post-card__meta">
+            <span class="post-card__badge">{{ post.date | date: "%b %d %Y" }}</span>
+
+            {% if post.tag %}
+                {% assign tag_list = post.tag | array %}
+                {% for tag in tag_list %}
+                    <span class="post-card__category">{{ tag }}</span>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <h3 class="post-card__title">{{ post.title }}</h3>
+
+        {% if post.description %}
+            <p class="post-card__description">{{ post.description }}</p>
+        {% elsif post.excerpt %}
+            <p class="post-card__description">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+        {% endif %}
+
+        <div class="post-card__footer">
+            <span class="post-card__cta">Read story</span>
+            <span class="post-card__icon" aria-hidden="true">→</span>
+        </div>
     </a>
-</div>
+</article>

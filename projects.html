@@ -2,15 +2,19 @@
 layout: page
 title: Projects
 ---
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
+<section class="content-intro">
+    <h1>Project Portfolio</h1>
+    <p>Selected work showcasing end-to-end ownership across data engineering, machine learning, and product experiences.</p>
+</section>
+
+{% assign project_posts = site.posts | where: "projects", true %}
+
+<section class="card-grid card-grid--projects">
+    {% if project_posts.size == 0 %}
+        <p class="card-grid__empty">Project case studies are coming soon.</p>
+    {% else %}
+        {% for post in project_posts %}
+            {% include project-card.html post=post %}
+        {% endfor %}
+    {% endif %}
 </section>

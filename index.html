@@ -2,3 +2,80 @@
 layout: page
 title: Home
 ---
+
+<section class="hero-secondary">
+  <div class="hero-secondary__text">
+    <p class="hero-secondary__eyebrow">Software Engineer II · Intuit</p>
+    <h2 class="hero-secondary__title">Designing event-driven platforms that turn data into product velocity.</h2>
+    <p class="hero-secondary__description">I build and scale resilient services for QuickBooks Online while prototyping applied AI workflows that unlock measurable customer impact across finance and operations products.</p>
+
+    <div class="hero-secondary__stats">
+      <div class="stat-card">
+        <span class="stat-card__value">6+</span>
+        <span class="stat-card__label">Years shipping production systems</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__value">3</span>
+        <span class="stat-card__label">Applied AI platforms launched</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-card__value">1</span>
+        <span class="stat-card__label">Peer-reviewed publication</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-secondary__visual">
+    <div class="floating-card">
+      <h3 class="floating-card__title">Current focus areas</h3>
+      <p class="floating-card__description">I collaborate with cross-functional teams to architect data-rich systems, weave intelligence into customer journeys, and deliver polished experiences end to end.</p>
+      <ul class="floating-card__list">
+        <li>Event-driven services with Kafka, DynamoDB, Postgres</li>
+        <li>Applied AI pipelines for forecasting, fraud, and insights</li>
+        <li>Composable interfaces spanning web, mobile, and cloud</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section-heading">
+  <div class="section-heading__content">
+    <h2>Featured Work</h2>
+    <p>Curated projects where I led architecture, implementation, and launch strategy.</p>
+  </div>
+  <a class="btn-secondary" href="{{ site.url }}/projects">View all projects</a>
+</section>
+
+<section class="card-grid">
+  {% assign featured_posts = site.posts | where: "projects", true | slice: 0, 3 %}
+
+  {% if featured_posts.size > 0 %}
+    {% for post in featured_posts %}
+      <article class="project-card">
+        <a class="project-card__link" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
+          <div class="project-card__meta">
+            <span class="project-card__badge">{{ post.date | date: "%b %Y" }}</span>
+            {% if post.category %}
+              <span class="project-card__category">{{ post.category }}</span>
+            {% endif %}
+          </div>
+
+          <h3 class="project-card__title">{{ post.title }}</h3>
+
+          {% if post.description %}
+            <p class="project-card__description">{{ post.description }}</p>
+          {% elsif post.excerpt %}
+            <p class="project-card__description">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          {% endif %}
+
+          <div class="project-card__footer">
+            <span class="project-card__cta">View project</span>
+            <span class="project-card__icon" aria-hidden="true">→</span>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p class="card-grid__empty">Projects coming soon. Stay tuned!</p>
+  {% endif %}
+</section>

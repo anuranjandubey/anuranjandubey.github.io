@@ -5,21 +5,31 @@
 %}{% assign showHeader = true %}{% endif %}
 
 {% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </a>
-        {% else %}
-            <span class="link">
-                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
-        {% endif %}
+    <header class="hero-shell {% if site.animation %}animated{% endif %}">
+        <div class="hero-content">
+            <span class="hero-eyebrow">Software Developer · Machine Learning Enthusiast</span>
+            <h1 class="hero-title">{{ site.title }}</h1>
+            <p class="hero-subtitle">{{ site.bio }}</p>
 
-        <h1 class="title">{{ site.title }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
+            <div class="hero-actions">
+                <a class="btn-primary" href="{{ site.url }}/projects">Explore Projects</a>
 
-        {% include social-links.html %}
+                {% if site.resume == true %}
+                    <a class="btn-secondary" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}{{ site.resume-url }}{% endif %}"{% if site.resume-external %} target="_blank" rel="noopener"{% endif %}>Download Résumé</a>
+                {% endif %}
+            </div>
+
+            <div class="hero-social">
+                {% include social-links.html %}
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-orb"></div>
+            <div class="hero-avatar-wrap">
+                <img class="hero-avatar" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+            </div>
+        </div>
     </header>
 {% endif %}
 
